@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  background: #EFEFEF;
+
+
+}
+.container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+.intro {
+  width: 100%;
+  height: 40%;
+  display: block;
+  vertical-align: top;
+  margin: 15px 5px;
+  /*position: absolute;*/
+
+}
+.nav {
+  margin-top: 7%;
+  margin-left: 3%;
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
+
+}
+.button {
+  min-width: 200px;  
+  height: 50px;
+  margin-bottom: 6px;
+}
+.one {
+  background-color: #3454D1;
+}
+.two {
+  background-color: #D12782;
+}
+.three {
+  background-color: #34D1BF;
+}
+
+.btn-text {
+  margin: 0;
+  padding-top: 8px;
+  color: #EFEFEF;
+  font-family: 'Press Start 2P';
+  font-size: 2em;
+  text-align: left;
+  margin-left: 10px;
+  text-shadow: 2px 1px 4px black;
+}
+.name{
+  display: inline-block;
+  width: 66%;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 9%;;
+
+
+}
+h1{
+  font-family: 'Press Start 2P';
+  font-size: 50px;
+  text-shadow: 1px 2x 2px grey;
+}
+h2{
+  font-family: 'Open Sans';
+  font-size: 20px;
+  margin: 0 0;
+  font-weight: 100;
+  color: #3454D1;
+  text-shadow: 1px 0px 1px grey;
+}
+.slash {
+  color: #D12782;
+}
+.dev {
+  color: #34D1BF;
+}
+.work {
+  border: 4px solid #3454D1;
+  display: block;
+  width: 95%;
+  height: 500px;
+/*   padding: 10px; */
+/*   margin-top: 60px; */
+   /*position: absolute;*/
+}
+.title {
+  font-size: 38px;
+}
+.row {
+  display: block;
+}
+.work-piece {
+  width: 40%;
+  height: 200px;
+  background-color: grey;
+  margin: 10px;
+  display: inline-block;
+}

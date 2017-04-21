@@ -3,150 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <style>
-    body {
-  display: flex;
-  justify-content: center;
-  background-color: #f4f4f4;
-}
-
-.container {
-  display: block;
-  width: 750px;
-  height: 400px;
-  margin-top: 50px;
-  padding: 0;
-  box-shadow: 0 0 40px grey;
-  border-radius: 5px;
-  background: repeating-linear-gradient( 90deg, white, white 10px, black 1px, black 12px);
-  justify-content: center;
-  text-align: center;
-  animation: glow 1s 1s infinite alternate;
-}
-h1{
-  font-family: helvetica;
-  font-size: 20px;
-  text-align: center;
-  font-weight: lighter;
-  color: rgb(91, 50, 227);
-}
-.circle {
-  display: inline-block;
-  margin-top: 3%;
-  width: 100px;
-  height: 100px;
-  box-shadow: 0 0 3px silver;
-  background: repeating-linear-gradient( 0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 10px, black 1px, black 12px);
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-}
-
-.y {
-  animation: changecolor 1s 1s infinite alternate;
-  opacity: .5;
-}
-
-.yo {
-  animation: rotate 1s .5s infinite alternate;
-}
-.text-bottom{
-  display: block;
-  position: absolute;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(30deg);
-  }
-  10% {
-    transform: rotate(60deg);
-  }
-  20% {
-    transform: rotate(90deg);
-  }
-  30% {
-    transform: rotate(120deg);
-  }
-  40% {
-    transform: rotate(150deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  60% {
-    transform: rotate(210deg);
-  }
-  70% {
-    transform: rotate(240deg);
-  }
-  80% {
-    transform: rotate(270deg);
-  }
-  100% {
-    transform: rotate(300deg);
-  }
-}
-
-@keyframes changecolor {
-  0% {
-    background: #065ee2;
-  }
-  20% {
-    background: #065ee2;
-  }
-  40% {
-    background: #065ee2;
-  }
-  60% {
-    background: #ff2d2d;
-  }
-  80% {
-    background: #ff2d2d;
-  }
-  100% {
-    background: #ff2d2d;
-  }
-}
-
-@keyframes glow {
-  0% {
-    box-shadow: 1px 1px 40px grey;
-  }
-  100% {
-    box-shadow: 1px 1px 70px grey;
-  }
-}
-</style>
-
+    <link rel="stylesheet" href="static/css/styles.css">
   </head>
   <body>
-  <div class="container">
-  <div class="circle y"></div>
-  <div class="circle yo"></div>
-  <div class="circle y"></div>
-  <div class="circle yo"></div>
-  <div class="circle y"></div>
-  <div class="circle yo"></div>
-  <div class="circle y"></div>
-  <div class="circle yo"></div>
-  <div class="circle y"></div>
-  <div class="circle yo"></div>
-  <div class="circle y"></div>
-  <div class="circle yo"></div>
-  <div class="circle y"></div>
-  <div class="circle yo"></div>
-  <div class="circle y"></div>
-  <div class="circle yo"></div>
-  <div class="circle y"></div>
-  <div class="circle yo"></div>
-  <div class="circle y"></div>
-  <div class="circle yo"></div>
-  <div class="circle y"></div>
+    <!-- THIS IS DALIA'S WEBSITE YO  -->
+<div class="container">
+<div class="intro">
+  <div class="nav">
+    <div class="button one">
+      <p class="btn-text">Work</p>
+    </div>
+    <div class="button two">
+      <p class="btn-text">Bio</p>
+    </div>
+    <div class="button three">
+    <p class="btn-text">Blog</p>
+    </div>
+  </div>
+  <div class="name">
+    <h1>Dalia</h1>
+    <h2>designer <span class="slash">//</span> <span class="dev">developer</span></h2>
+  </div>
 </div>
-<div class="text-bottom">
-  <h1>This website is coming soon!</h1>
+<div class="work">
+  <h2 class="title">// work</h2>
+  <div class="row">
+    <div class="work-piece"></div>
+    <div class="work-piece"></div>
+  </div>
 </div>
-
+</div>
   </body>
 </html>
