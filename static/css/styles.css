@@ -29,11 +29,12 @@ body {
   margin-left: 3%;
   vertical-align: top;
   display: inline-block;
-  width: 30%;
+  width: 26%;
 
 }
 .button {
-  min-width: 200px;  
+  min-width: 200px;
+  max-width: 270px;
   height: 50px;
   margin-bottom: 6px;
 }
@@ -66,14 +67,15 @@ body {
 
 
 }
-h1{
+.name-plate{
   font-family: 'Press Start 2P';
-  font-size: 50px;
+  font-size: 70px;
+  margin: 10px 0;
   text-shadow: 1px 2x 2px grey;
 }
-h2{
+.description {
   font-family: 'Open Sans';
-  font-size: 20px;
+  font-size: 23px;
   margin: 0 0;
   font-weight: 100;
   color: #3454D1;
@@ -89,21 +91,26 @@ h2{
   border: 4px solid #3454D1;
   display: block;
   width: 95%;
-  height: 500px;
-/*   padding: 10px; */
-/*   margin-top: 60px; */
-   /*position: absolute;*/
+  height: auto;
+  background-color: white;
 }
 .title {
   font-size: 38px;
+  font-family: 'Open Sans';
+  margin: 0 10px;
+  font-weight: 100;
+  text-shadow: 1px 0px 1px grey;
+  color: #3454D1;
 }
 .row {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 .work-piece {
-  width: 40%;
-  height: 200px;
+  width: 48%;
+  height: 300px;
   background-color: grey;
-  margin: 10px;
+  margin: 1%;
   display: inline-block;
 }
