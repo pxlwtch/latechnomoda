@@ -118,6 +118,7 @@ body {
   display: flex;
   flex-direction: row;
   min-width: 25%;
+  margin-top: 5px;
 }
 .icon{
   background-color:#222;
