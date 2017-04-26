@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+
+
+
 body {
   background: #EFEFEF;
 
@@ -39,10 +42,10 @@ body {
   margin-bottom: 6px;
 }
 .one {
-  background-color: #3454D1;
+  background-color: #D12782;
 }
 .two {
-  background-color: #D12782;
+  background-color: #3454D1;
 }
 .three {
   background-color: #34D1BF;
@@ -166,7 +169,7 @@ body {
 }
 
 .github:hover{
-  background-color:#6CC644;
+  background-color:#95be8c;
 }
 
 .codepen{
@@ -175,7 +178,7 @@ body {
 }
 
 .codepen:hover{
-  background-color:#76DAFF;
+  background-color:#96f180;
 }
 
 .dribbble{
