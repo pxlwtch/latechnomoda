@@ -17,17 +17,42 @@ body {
   flex-direction: column;
 }
 
-.menu {
-  /*text-align: center;*/
-  /*display: block;*/
+.nav {
+  /*margin-top: 7%;*/
+  /*margin-left: 2em;*/
+  vertical-align: top;
+  /*display: inline-block;*/
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+
 }
-.navigation{
-  color: #D12782;
+.button {
+  min-width: 200px;
+  max-width: 270px;
+  height: 50px;
+  margin: 10px 5px;
 }
-.slash {
-  color: #3454D1;
+.one {
+  background-color: #D12782;
+}
+.two {
+  background-color: #3454D1;
+}
+.three {
+  background-color: #34D1BF;
 }
 
+.btn-text {
+  margin: 0;
+  padding-top: 8px;
+  color: #EFEFEF;
+  font-family: 'Press Start 2P';
+  font-size: 2em;
+  text-align: left;
+  margin-left: 10px;
+  text-shadow: 2px 1px 4px black;
+}
 .body-cont {
   border: 4px solid #D12782;
   background-color: white;
@@ -39,7 +64,7 @@ body {
   flex-direction: column;
 }
 .body-cont h1{
-  font-family: 'Press Start 2P';
+  font-family: 'Open Sans';
   font-size: 2em;
   color: #D12782;
   padding: 0 15px;
