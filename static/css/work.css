@@ -1,106 +1,62 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-.nav a {
-    text-decoration: none;
+
+p{
+  font-family: 'Open Sans'
 }
 
+h2{
+  font-family: 'Open Sans'
+}
+a{
+  text-decoration: none;
+}
 body {
-    background: #EFEFEF;
-}
-
-.container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.intro {
-    width: 95%;
-    height: 40%;
-    display: block;
-    vertical-align: top;
-    margin-bottom: 7%;
-    /*margin: 15px 3px;*/
-    /*position: absolute;*/
+  background-color: rgb(228, 228, 228);
+  justify-content:center;
+  align-items:center;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav {
-    margin-top: 7%;
-    /*margin-left: 2em;*/
-    vertical-align: top;
-    display: inline-block;
-    width: 26%;
-}
+  /*margin-top: 7%;*/
+  /*margin-left: 2em;*/
+  vertical-align: top;
+  /*display: inline-block;*/
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  /*position: fixed;*/
+  /*top: 10px;*/
 
+}
 .button {
-    min-width: 200px;
-    max-width: 270px;
-    height: 50px;
-    margin-bottom: 6px;
+  min-width: 200px;
+  max-width: 270px;
+  height: 50px;
+  margin: 10px 5px;
 }
-
 .one {
-    background-color: #D12782;
+  background-color: #D12782;
 }
-
 .two {
-    background-color: #3454D1;
+  background-color: #3454D1;
 }
-
 .three {
-    background-color: #34D1BF;
+  background-color: #34D1BF;
 }
 
 .btn-text {
-    margin: 0;
-    padding-top: 8px;
-    color: #EFEFEF;
-    font-family: 'Press Start 2P';
-    font-size: 2em;
-    text-align: left;
-    margin-left: 10px;
-    text-shadow: 2px 1px 4px black;
+  margin: 0;
+  padding-top: 8px;
+  color: #EFEFEF;
+  font-family: 'Press Start 2P';
+  font-size: 2em;
+  text-align: left;
+  margin-left: 10px;
+  text-shadow: 2px 1px 4px black;
 }
-
-.name {
-    display: inline-block;
-    width: 66%;
-    text-align: center;
-    vertical-align: top;
-    margin-top: 9%;
-    margin-left: 7%;
-}
-
-.name-plate {
-    font-family: 'Press Start 2P';
-    font-size: 70px;
-    margin: 10px 0;
-    text-shadow: 2px 2px 3px rgba(64, 64, 64, 0.6);
-}
-
-.description {
-    font-family: 'Open Sans';
-    font-size: 23px;
-    margin: 0 0;
-    font-weight: 100;
-    color: #D12782;
-    text-shadow: 1px 1px 3px rgba(64, 64, 64, 0.4);
-}
-
-.slash {
-    color: #3454D1;
-    text-shadow: 1px 1px 3px rgba(64, 64, 64, 0.4);
-}
-
-.dev {
-    color: #34D1BF;
-    text-shadow: 1px 1px 3px rgba(64, 64, 64, 0.4);
-}
-
 .work {
     border: 4px solid #3454D1;
     display: block;
