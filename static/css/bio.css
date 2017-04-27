@@ -20,7 +20,12 @@ body {
 .menu {
   /*text-align: center;*/
   /*display: block;*/
-
+}
+.navigation{
+  color: #D12782;
+}
+.slash {
+  color: #3454D1;
 }
 
 .body-cont {
@@ -112,7 +117,7 @@ body {
 }
 
 .codepen:hover{
-  background-color:#76DAFF;
+  background-color:#8ed9e9;
 }
 
 .dribbble{

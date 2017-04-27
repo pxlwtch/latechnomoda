@@ -111,11 +111,16 @@ body {
   width: 100%;
 }
 .work-piece {
-  width: 48%;
+  width: 100%;
   height: 300px;
-  background-color: grey;
+  /*background-color: grey;*/
   margin: 1%;
   display: inline-block;
+}
+.work img{
+  width: 500px;
+  padding: 0;
+  margin: 0;
 }
 .bottom-links {
   display: flex;
@@ -178,7 +183,7 @@ body {
 }
 
 .codepen:hover{
-  background-color:#96f180;
+  background-color:#8ed9e9;
 }
 
 .dribbble{
@@ -189,3 +194,59 @@ body {
 .dribbble:hover{
   background-color:#ea4c89;
 }
+
+h1,h2,h3,h4{
+		padding: 0px;
+		margin: 0px;
+	}
+	.caption-style-1{
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+
+	}
+	.caption-style-1 li{
+		float: left;
+		padding: 0px;
+		position: relative;
+		overflow: hidden;
+	}
+	.caption-style-1 li:hover .caption{
+		opacity: 1;
+	}
+	.caption-style-1 img{
+		margin: 0px;
+		padding: 0px;
+		float: left;
+		z-index: 4;
+	}
+	.caption-style-1 .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 0;
+		-webkit-transition:all 0.45s ease-in-out;
+		-moz-transition:all 0.45s ease-in-out;
+		-o-transition:all 0.45s ease-in-out;
+		-ms-transition:all 0.45s ease-in-out;
+		transition:all 0.45s ease-in-out;
+	}
+	.caption-style-1 .blur{
+		background-color: rgba(0,0,0,0.65);
+		height: 300px;
+		width: 400px;
+		z-index: 5;
+		position: absolute;
+	}
+	.caption-style-1 .caption-text h1{
+		text-transform: uppercase;
+		font-size: 24px;
+	}
+	.caption-style-1 .caption-text{
+		z-index: 10;
+		color: #fff;
+		position: absolute;
+		width: 400px;
+		height: 300px;
+		text-align: center;
+		top:100px;
+	}
