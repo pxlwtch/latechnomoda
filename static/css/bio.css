@@ -8,7 +8,9 @@ p{
 h2{
   font-family: 'Open Sans'
 }
-
+a{
+  text-decoration: none;
+}
 body {
   background-color: rgb(228, 228, 228);
   justify-content:center;
