@@ -8,7 +8,9 @@ p{
 h2{
   font-family: 'Open Sans'
 }
-
+a{
+  text-decoration: none;
+}
 body {
   background-color: rgb(228, 228, 228);
   justify-content:center;
@@ -17,26 +19,57 @@ body {
   flex-direction: column;
 }
 
-.menu {
-  /*text-align: center;*/
-  /*display: block;*/
+.nav {
+  /*margin-top: 7%;*/
+  /*margin-left: 2em;*/
+  vertical-align: top;
+  /*display: inline-block;*/
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  /*position: fixed;*/
+  /*top: 10px;*/
 
 }
+.button {
+  min-width: 200px;
+  max-width: 270px;
+  height: 50px;
+  margin: 10px 5px;
+}
+.one {
+  background-color: #D12782;
+}
+.two {
+  background-color: #3454D1;
+}
+.three {
+  background-color: #34D1BF;
+}
 
+.btn-text {
+  margin: 0;
+  padding-top: 8px;
+  color: #EFEFEF;
+  font-family: 'Press Start 2P';
+  font-size: 2em;
+  text-align: left;
+  margin-left: 10px;
+  text-shadow: 2px 1px 4px black;
+}
 .body-cont {
-  border: 4px solid #D12782;
+  border: 4px solid #3454D1;
   background-color: white;
   width: 95%;
-  height: 500px;
+  height: auto;
   box-shadow: 4px 2px 6px grey;
-  /*text-align: center;*/
   display: flex;
   flex-direction: column;
 }
 .body-cont h1{
-  font-family: 'Press Start 2P';
+  font-family: 'Open Sans';
   font-size: 2em;
-  color: #D12782;
+  color: #3454D1;
   padding: 0 15px;
   text-shadow: 1px 2px 2px black;
 }
@@ -47,10 +80,29 @@ body {
 .line {
   width: 90%;
   height: 1px;
-  background-color: #D12782;
+  background-color: #3454D1;
   text-align: center;
   margin: 0 auto;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.overview {
+  margin: 0 2%;
+  font-family: 'Open Sans'
+}
+.logo-brand-section img{
+  width: 100%;
+}
+
+
+
+
+
+
+
 .bottom-links {
   display: flex;
   flex-direction: row;
@@ -112,7 +164,7 @@ body {
 }
 
 .codepen:hover{
-  background-color:#76DAFF;
+  background-color:#8ed9e9;
 }
 
 .dribbble{
