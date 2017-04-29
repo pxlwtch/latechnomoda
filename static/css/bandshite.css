@@ -96,13 +96,21 @@ body {
 .logo-brand-section img{
   width: 100%;
 }
-
-
-
-
-
-
-
+.logos {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  /*margin: 3vw;*/
+  width: 90%;
+  margin: 3vw auto;
+}
+.logos img {
+  margin-left: 10%;
+}
+.color-scheme {
+  width: 95%;
+  margin: auto;
+}
 .bottom-links {
   display: flex;
   flex-direction: row;
