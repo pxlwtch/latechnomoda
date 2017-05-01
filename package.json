@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "rimraf ./docs/",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "postbuild": "echo 'latechno.moda' > docs/CNAME"
   },
   "repository": {
     "type": "git",
