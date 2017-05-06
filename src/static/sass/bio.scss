@@ -1,42 +1,53 @@
-.nav {
+@import "styles.scss";
+.horizontal-navigation {
   vertical-align: top;
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  .nav-button {
+    margin: 10px 15px;
+  }
 }
 
-.body-cont {
-  border: 4px solid #D12782;
+.bio-content {
   background-color: white;
+  margin-top: 15px;
   width: 95%;
   height: 500px;
-  box-shadow: 4px 2px 6px grey;
   display: flex;
   flex-direction: column;
+  font-family: $open-sans-font;
+  font-size: 16px;
+  h1 {
+    color: $complement-1;
+    padding: 0 15px;
+    text-shadow: 1px 2px 2px black;
+  }
+  p {
+    margin: 20px 15px;
+  }
 }
-.body-cont h1{
-  font-family: 'Open Sans';
-  font-size: 2em;
-  color: #D12782;
-  padding: 0 15px;
-  text-shadow: 1px 2px 2px black;
-}
-.body-cont p {
-  /*padding: 10px;*/
-  margin: 20px 15px;
-}
+
 .line {
   width: 90%;
   height: 1px;
-  background-color: #D12782;
+  background-color: $complement-1;
   text-align: center;
   margin: 0 auto;
 }
+
 .other-info {
+  margin: 20px auto;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-}
-.other-info div {
-  margin: 0 15%;
-  font-family: 'Open Sans'
+  div {
+    margin: 0 30px;
+    font-family: $open-sans-font;
+    h2 {
+      font-size: 16px;
+      color: $subtitle-color
+    }
+  }
 }
