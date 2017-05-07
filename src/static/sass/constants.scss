@@ -1,4 +1,4 @@
-// Only put things in this file that don't matter if they're repeated in 
+// Only put things in this file that don't matter if they're repeated in
 // a bundle.css file. Otherwise @import statements (i.e. @import "styles.scss";)
 // will repeat the styles.scss file in the bundle.css for every time it gets
 // borrowed in a new *.scss file which makes it hard to debug in a browser.
@@ -20,10 +20,9 @@ $open-sans-font: 'Open Sans';
 $press-start-font: 'Press Start 2P';
 
 $white: #EFEFEF;
-$complement-1: #D12782;
+$complement-1: #D14991;
 $complement-2: #3454D1;
 $complement-3: #34D1BF;
-$subtitle-color: #CB00B5;
 $linkedin-color: #007BB6;
 $github-color: #95BE8C;
 $codepen-color: #8ED9E9;
@@ -40,4 +39,3 @@ a {
 p {
   margin: 0px;
 }
-

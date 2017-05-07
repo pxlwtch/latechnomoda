@@ -58,16 +58,16 @@ body {
   font-size: 7.5vw;
   margin: 10px 0;
   &:hover {
-    animation: name-hover 2s 1s infinite alternate;
+    animation: name-hover 2s 1s infinite linear;
     /*color: white;*/
     text-shadow: 4px 4px 1px $complement-1;
   }
   @keyframes name-hover {
-    10%{ text-shadow: 4px 4px 1px $complement-1; }
-    50%{ text-shadow: 4px 4px 1px $complement-2; }
-    60%{ text-shadow: 4px 4px 1px $complement-2; }
+    0%{ text-shadow: 4px 4px 1px $complement-1; }
+    20%{ text-shadow: 4px 4px 1px $complement-2; }
+    40%{ text-shadow: 4px 4px 1px $complement-2; }
+    60%{ text-shadow: 4px 4px 1px $complement-3; }
     80%{ text-shadow: 4px 4px 1px $complement-3; }
-    90%{ text-shadow: 4px 4px 1px $complement-3; }
   }
 }
 

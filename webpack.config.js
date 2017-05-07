@@ -15,8 +15,10 @@ module.exports = {
     new HtmlWebpackPlugin({filename: 'bio.html', template: 'src/bio.html'}),
 //    new HtmlWebpackPlugin({filename: 'resume.html', template: 'src/resume.html'}),
 //    new HtmlWebpackPlugin({filename: 'work.html', template: 'src/work.html'}),
-    new HtmlWebpackPlugin({filename: 'case-study/beverly.html', template: 'src/case-study/beverly.html'}),
+    new HtmlWebpackPlugin({filename: 'case-study/aqua.html', template: 'src/case-study/aqua.html'}),
     new HtmlWebpackPlugin({filename: 'case-study/bandshite.html', template: 'src/case-study/bandshite.html'}),
+    new HtmlWebpackPlugin({filename: 'case-study/beverly.html', template: 'src/case-study/beverly.html'}),
+    new HtmlWebpackPlugin({filename: 'case-study/rosie.html', template: 'src/case-study/rosie.html'}),
     extractSass
   ],
   module: {
