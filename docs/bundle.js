@@ -94,10 +94,11 @@
 /* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(0);
-__webpack_require__(1);
-__webpack_require__(2);
 __webpack_require__(3);
+__webpack_require__(2);
+__webpack_require__(1);
+__webpack_require__(0);
+//require('./static/sass/work.scss');
 
 console.log('hi');
 

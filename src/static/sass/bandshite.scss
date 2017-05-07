@@ -1,59 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-.nav {
-  vertical-align: top;
-  width: 50%;
-  display: flex;
-  flex-direction: row;
+.logo-description {
+  flex-grow: 2;
+  line-height: 30px;
+  margin-right: 60px;
 }
-
-.body-cont {
-  border: 4px solid #3454D1;
-  background-color: white;
-  width: 95%;
-  height: auto;
-  box-shadow: 4px 2px 6px grey;
-  display: flex;
-  flex-direction: column;
+.bandshite-logo {
+  height: 230px;
+  width: 230px;
 }
-.body-cont h1{
-  font-family: 'Open Sans';
-  font-size: 2em;
-  color: #3454D1;
-  padding: 0 15px;
-  text-shadow: 1px 2px 2px black;
-}
-.body-cont p {
-  /*padding: 10px;*/
-  margin: 20px 15px;
-}
-.line {
-  width: 90%;
-  height: 1px;
-  background-color: #3454D1;
+.music-loving-quote {
+  font-style: italic;
+  font-size: 30px;
   text-align: center;
-  margin: 0 auto;
 }
-.overview {
-  margin: 0 2%;
-  font-family: 'Open Sans'
-}
-.logo-brand-section img{
-  width: 100%;
-}
-.logos {
-  display: flex;
-  height: auto;
-  justify-content: center;
-  /*margin: 3vw;*/
-  width: 90%;
-  margin: 3vw auto;
-}
-.logos img {
-  margin-left: 10%;
-}
-.color-scheme {
-  width: 95%;
-  margin: auto;
-}
+

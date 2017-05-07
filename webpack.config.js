@@ -12,13 +12,11 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({filename: 'index.html', template: 'src/index.html'}),
-    new HtmlWebpackPlugin({filename: 'main.html', template: 'src/main.html'}),
     new HtmlWebpackPlugin({filename: 'bio.html', template: 'src/bio.html'}),
-    new HtmlWebpackPlugin({filename: 'resume.html', template: 'src/resume.html'}),
-    new HtmlWebpackPlugin({filename: 'work.html', template: 'src/work.html'}),
+//    new HtmlWebpackPlugin({filename: 'resume.html', template: 'src/resume.html'}),
+//    new HtmlWebpackPlugin({filename: 'work.html', template: 'src/work.html'}),
     new HtmlWebpackPlugin({filename: 'case-study/beverly.html', template: 'src/case-study/beverly.html'}),
     new HtmlWebpackPlugin({filename: 'case-study/bandshite.html', template: 'src/case-study/bandshite.html'}),
-    extractSass,
     extractSass
   ],
   module: {
