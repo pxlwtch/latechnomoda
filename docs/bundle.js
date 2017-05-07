@@ -100,7 +100,7 @@ __webpack_require__(1);
 __webpack_require__(0);
 //require('./static/sass/work.scss');
 
-console.log('hi');
+console.log('hi this site was made by ...');
 
 
 /***/ })
