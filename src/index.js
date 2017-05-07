@@ -4,4 +4,4 @@ require('./static/sass/bio.scss');
 require('./static/sass/bandshite.scss');
 //require('./static/sass/work.scss');
 
-console.log('hi');
+console.log('hi this site was made by ...');
