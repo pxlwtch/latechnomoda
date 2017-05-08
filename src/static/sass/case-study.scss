@@ -1,5 +1,9 @@
 @import "constants.scss";
 
+a {
+  text-decoration: none;
+}
+
 .case-study-container {
   width: 95%;
   max-width: 850px;
@@ -23,7 +27,7 @@
     }
     .description {
       flex-grow: 2;
-      margin-left: 60px;
+      margin-left: 70px;
       line-height: 30px;
       display: flex;
       flex-direction: column;
@@ -74,4 +78,3 @@
   background-color: $complement-2;
   text-align: center;
 }
-
