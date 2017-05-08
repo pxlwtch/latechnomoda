@@ -7,4 +7,4 @@ require('./static/sass/beverly.scss');
 require('./static/sass/rosie.scss');
 //require('./static/sass/work.scss');
 
-console.log('hi this site was made by ...');
+console.log('hi this site was made with ❤︎ by @daliafyi and @0XDEAD37 on twitter');

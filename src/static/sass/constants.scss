@@ -8,6 +8,10 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400');
 
+a {
+  text-decoration: none;
+}
+
 @mixin transition($transition) {
   -webkit-transition: $transition;
   -moz-transition: $transition;
@@ -52,5 +56,3 @@ p {
     width: 100%;
   }
 }
-
-
