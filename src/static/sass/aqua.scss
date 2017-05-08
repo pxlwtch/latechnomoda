@@ -1,0 +1,15 @@
+@import "constants.scss";
+
+#final-product-text {
+  width: auto;
+  margin: 50px auto 0px;
+  font-size: 18px;
+}
+.equation {
+  margin: 50px 0px 0px;
+  justify-content: space-between;
+}
+.equation-character {
+  font-size: 38px;
+  color: $complement-2;
+}

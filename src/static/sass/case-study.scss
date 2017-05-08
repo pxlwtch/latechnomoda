@@ -25,6 +25,11 @@
       flex-grow: 2;
       margin-left: 60px;
       line-height: 30px;
+      display: flex;
+      flex-direction: column;
+      .description-image {
+        margin: 5px auto;
+      }
     }
     .logo-description {
       flex-grow: 2;
@@ -38,7 +43,7 @@
   }
   .large-image {
     width: 100%;
-    height: 42vw;
+    // height: 42vw;
     margin: 30px auto;
   }
   .color-scheme-image {
@@ -50,6 +55,7 @@
   .lone-paragraph {
     align-self: center;
     line-height: 30px;
+    margin-top: 30px;
     width: 80%;
   }
   .check-other-projects {
