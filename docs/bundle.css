@@ -4,6 +4,17 @@
 p {
   margin: 0px; }
 
+.home-button {
+  height: 39px;
+  width: 79px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1; }
+  .home-button img {
+    height: 100%;
+    width: 100%; }
+
 #final-product-text {
   width: auto;
   margin: 50px auto 0px;
@@ -21,6 +32,17 @@ a {
 
 p {
   margin: 0px; }
+
+.home-button {
+  height: 39px;
+  width: 79px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1; }
+  .home-button img {
+    height: 100%;
+    width: 100%; }
 
 body {
   position: relative;
@@ -45,7 +67,9 @@ body {
   min-width: 200px;
   max-width: 270px;
   height: 50px;
-  margin-bottom: 6px; }
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: flex-start; }
   .nav-button a {
     text-decoration: none;
     color: #EFEFEF; }
@@ -242,6 +266,17 @@ a {
 p {
   margin: 0px; }
 
+.home-button {
+  height: 39px;
+  width: 79px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1; }
+  .home-button img {
+    height: 100%;
+    width: 100%; }
+
 a {
   text-decoration: none; }
 
@@ -313,12 +348,24 @@ a {
 p {
   margin: 0px; }
 
+.home-button {
+  height: 39px;
+  width: 79px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1; }
+  .home-button img {
+    height: 100%;
+    width: 100%; }
+
 .horizontal-navigation {
   vertical-align: top;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  align-items: flex-end; }
   .horizontal-navigation .nav-button {
     margin: 10px 15px; }
 
