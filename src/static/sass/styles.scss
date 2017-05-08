@@ -31,6 +31,8 @@ body {
   .nav-button {
     text-decoration: none;
     color: $white;
+    max-width: 270px;
+    min-width: 200px;
     .btn-text {
       margin: 0;
       padding-top: 8px;

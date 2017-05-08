@@ -78,7 +78,9 @@ body {
   justify-content: flex-start; }
   .nav-link .nav-button {
     text-decoration: none;
-    color: #EFEFEF; }
+    color: #EFEFEF;
+    max-width: 270px;
+    min-width: 200px; }
     .nav-link .nav-button .btn-text {
       margin: 0;
       padding-top: 8px;
