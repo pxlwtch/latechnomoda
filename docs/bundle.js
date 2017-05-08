@@ -121,7 +121,7 @@ __webpack_require__(2);
 __webpack_require__(5);
 //require('./static/sass/work.scss');
 
-console.log('hi this site was made by ...');
+console.log('hi this site was made with ❤︎ by @daliafyi and @0XDEAD37 on twitter');
 
 
 /***/ })
