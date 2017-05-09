@@ -37,6 +37,11 @@ a {
     padding: 0 15px;
     text-shadow: 1px 2px 2px black;
   }
+  h2 {
+    font-size: 15px;
+    color: $complement-1;
+    font-family: $poppins;
+  }
   p {
     margin: 20px 15px;
   }
@@ -67,10 +72,8 @@ a {
         margin: 0px;
     }
     font-family: $open-sans-font;
-    h2 {
+    h2{
       font-size: 19px;
-      color: $complement-1;
-      font-family: $poppins;
     }
     a {
       text-decoration: none;

@@ -13,15 +13,6 @@ a {
   padding-top: 40px;
   font-family: $open-sans-font;
   font-size: 16px;
-  a {
-    color: black;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size: 23px;
-    font-family: $poppins;
-  }
-  a:hover {
-    color: $complement-2;
   }
   .separated-container {
     display: flex;
@@ -77,8 +68,15 @@ a {
    margin: 20px auto;
    text-align: center;
    font-size: 22px;
-   color: $complement-2;
+  //  color: $complement-2;
    font-weight: 600;
+   a {
+     animation: other-proj-colors 3s 1s infinite alternate;
+     font-weight: 400;
+     letter-spacing: 1px;
+     font-size: 28px;
+     font-family: $poppins;
+     color: black;
   }
 }
 .blue-line {
@@ -88,4 +86,19 @@ a {
   margin: 30px auto;
   background-color: $complement-2;
   text-align: center;
+}
+
+@keyframes other-proj-colors {
+  0%{
+    text-shadow: 0 0 2px $complement-1;
+  }
+  30%{
+    text-shadow: 0 0 2px $complement-2;
+   }
+  60%{
+    text-shadow: 0 0 2px $complement-3;
+  }
+  100%{
+    text-shadow: 0 0 2px $complement-1;
+  }
 }

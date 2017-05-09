@@ -1,8 +1,18 @@
+@import "constants.scss";
 .third-image {
-  height: 165px;
+  // height: 165px;
+  width: 180px;
   margin: 65px auto;
 }
 
 #beverly-website-redesign {
   margin-top: 70px;
+}
+
+.lone-paragraph {
+  a {
+    font-family: $open-sans-font;
+    font-weight: bold;
+    color: black;
+  }
 }
