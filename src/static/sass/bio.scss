@@ -10,6 +10,12 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  z-index: 2;
+  box-shadow: 0 0 5px grey;
   .nav-button {
     width: 90%;
     margin-left: 10px;
@@ -21,11 +27,11 @@ a {
   margin-top: 15px;
   width: 90%;
   max-width: 850px;
-  height: 500px;
   display: flex;
   flex-direction: column;
   font-family: $open-sans-font;
   font-size: 16px;
+  margin-top: 40px;
   h1 {
     color: $complement-1;
     padding: 0 15px;
@@ -41,20 +47,33 @@ a {
   height: 2px;
   background-color: $complement-1;
   text-align: center;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .other-info {
-  margin: 20px auto;
+  // margin: 10px auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  @media (max-width: 750px) {
+    flex-direction: column;
+    div {
+      margin: 0px;
+    }
+  }
   div {
-    margin: 0 30px;
+    margin: 10px 80px;
+    @media (max-width: 750px) {
+        margin: 0px;
+    }
     font-family: $open-sans-font;
     h2 {
-      font-size: 17px;
+      font-size: 19px;
       color: $complement-1;
+    }
+    a {
+      text-decoration: none;
+      color: black;
     }
   }
 }

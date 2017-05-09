@@ -66,14 +66,14 @@ body {
   &:hover {
     animation: name-hover 2s 1s infinite linear;
     /*color: white;*/
-    text-shadow: 4px -3px 1px $complement-1;
+    text-shadow: 3px -3px  $complement-1;
   }
   @keyframes name-hover {
-    0%{ text-shadow: 4px -3px 1px $complement-1; }
-    20%{ text-shadow: 4px -3px 1px $complement-2; }
-    40%{ text-shadow: 4px -3px 1px $complement-2; }
-    60%{ text-shadow: 4px -3px 1px $complement-3; }
-    80%{ text-shadow: 4px -3px 1px $complement-3; }
+    0%{ text-shadow: 3px -3px  $complement-1; }
+    20%{ text-shadow: 3px -3px  $complement-2; }
+    40%{ text-shadow: 3px -3px  $complement-2; }
+    60%{ text-shadow: 3px -3px  $complement-3; }
+    80%{ text-shadow: 3px -3px  $complement-3; }
   }
 }
 
@@ -83,17 +83,14 @@ body {
   margin: 0 0;
   font-weight: 100;
   color: $complement-1;
-  text-shadow: 1px 1px 3px rgba(64, 64, 64, 0.4);
 }
 
 .slash {
   color: $complement-2;
-  text-shadow: 1px 1px 3px rgba(64, 64, 64, 0.4);
 }
 
 .dev {
   color: $complement-3;
-  text-shadow: 1px 1px 3px rgba(64, 64, 64, 0.4);
 }
 
 .work {
@@ -101,6 +98,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  margin-top: 40px;
   .work-piece {
     position: relative;
     cursor: pointer;
