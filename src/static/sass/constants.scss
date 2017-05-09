@@ -46,7 +46,7 @@ p {
 
 .home-button{
   height: 39px;
-  width: 79px;
+  width: 82px;
   position: fixed;
   top: 20px;
   left: 20px;
@@ -54,5 +54,27 @@ p {
   img {
     height: 100%;
     width: 100%;
+  }
+}
+.copyright {
+  bottom: 10px;
+  margin: 0px auto;
+  h3 {
+    font-family: $poppins;
+    font-size: 11px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    display: inline-block;
+  }
+  .tiny-heart {
+    width: 15px;
+  }
+  .tiny-envelope {
+    width: 35px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
   }
 }

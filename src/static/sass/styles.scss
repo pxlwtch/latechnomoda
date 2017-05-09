@@ -33,13 +33,16 @@ body {
     color: $white;
     max-width: 270px;
     min-width: 200px;
+    border-radius: 2px;
     .btn-text {
       margin: 0;
-      padding-top: 8px;
+      padding-top: 1px;
       font-family: $poppins;
-      font-size: 1.7em;
+      font-size: 31px;
       text-align: right;
       margin-right: 10px;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     }
   }
 }
@@ -82,6 +85,7 @@ body {
   font-size: 22px;
   margin: 0 0;
   font-weight: 100;
+  letter-spacing: 1px;
   color: $complement-1;
 }
 
@@ -102,13 +106,14 @@ body {
   .work-piece {
     position: relative;
     cursor: pointer;
-    border: 4px solid $complement-2;
+    border: 2px solid $complement-2;
     font-family: $open-sans-font;
     flex-basis: calc(47%);
     margin: 10px 20px 20px 0px;
     min-width: 300px;
     min-height: 350px;
     text-align: center;
+    border-radius: 2px;
     @media(max-width: 750px) {
       width: 100%;
       flex-basis: auto;
@@ -227,8 +232,8 @@ body {
   background-color: #222;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 4em;
-  width: 4em;
+  height: 3.5em;
+  width: 3.5em;
   border-radius: 50%;
   margin: 10px;
   @include transition(background-color 0.4s ease);
