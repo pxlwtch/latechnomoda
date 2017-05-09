@@ -5,7 +5,7 @@
 // So it's much better to import things that hardly change,
 // with a dedicated @import "constants.scss";
 
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400');
 
 a {
@@ -21,7 +21,7 @@ a {
 }
 
 $open-sans-font: 'Open Sans';
-$press-start-font: 'Press Start 2P';
+$poppins: 'Poppins';
 
 $white: #EFEFEF;
 $complement-1: #D14991;

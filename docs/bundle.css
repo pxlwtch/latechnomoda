@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);a {
+@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);a {
   text-decoration: none; }
 
 a {
@@ -59,7 +59,7 @@ body {
   align-items: center; }
 
 .header {
-  width: 100%;
+  width: 95%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -70,12 +70,10 @@ body {
   flex: 1 3 auto; }
 
 .nav-link {
-  min-width: 200px;
-  max-width: 270px;
   height: 50px;
   margin-bottom: 6px;
   display: flex;
-  justify-content: flex-start; }
+  justify-content: flex-end; }
   .nav-link .nav-button {
     text-decoration: none;
     color: #EFEFEF;
@@ -84,17 +82,18 @@ body {
     .nav-link .nav-button .btn-text {
       margin: 0;
       padding-top: 8px;
-      font-family: "Press Start 2P";
-      font-size: 2em;
-      text-align: left;
-      margin-left: 10px; }
+      font-family: "Poppins";
+      font-size: 1.7em;
+      text-align: right;
+      margin-right: 10px; }
 
 .name {
   flex: 1 1 auto;
   text-align: center; }
   .name a {
     text-decoration: none;
-    color: black; }
+    color: black;
+    margin: 0 0; }
 
 .one {
   background-color: #D14991; }
@@ -106,29 +105,31 @@ body {
   background-color: #34D1BF; }
 
 .name-plate {
-  font-family: "Press Start 2P";
-  font-size: 7.5vw;
-  margin: 15px 0; }
+  font-family: "Poppins";
+  font-size: 90px;
+  height: 100px;
+  line-height: 90px;
+  display: inline-block; }
   .name-plate:hover {
     animation: name-hover 2s 1s infinite linear;
     /*color: white;*/
-    text-shadow: 4px 4px 1px #D14991; }
+    text-shadow: 4px -3px 1px #D14991; }
 
 @keyframes name-hover {
   0% {
-    text-shadow: 4px 4px 1px #D14991; }
+    text-shadow: 4px -3px 1px #D14991; }
   20% {
-    text-shadow: 4px 4px 1px #3454D1; }
+    text-shadow: 4px -3px 1px #3454D1; }
   40% {
-    text-shadow: 4px 4px 1px #3454D1; }
+    text-shadow: 4px -3px 1px #3454D1; }
   60% {
-    text-shadow: 4px 4px 1px #34D1BF; }
+    text-shadow: 4px -3px 1px #34D1BF; }
   80% {
-    text-shadow: 4px 4px 1px #34D1BF; } }
+    text-shadow: 4px -3px 1px #34D1BF; } }
 
 .subtitle {
   font-family: "Open Sans";
-  font-size: 23px;
+  font-size: 22px;
   margin: 0 0;
   font-weight: 100;
   color: #D14991;
@@ -384,7 +385,8 @@ a {
   justify-content: center;
   align-items: flex-end; }
   .horizontal-navigation .nav-button {
-    width: 90%; }
+    width: 90%;
+    margin-left: 10px; }
 
 .bio-content {
   background-color: white;
