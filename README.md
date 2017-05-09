@@ -2,6 +2,8 @@
 
 # laTechno.moda
 
+</div>
+
 this is the repo for my portfolio site latechno.moda, here you will find most of my design projects and get a look at how I go about designing websites and other stuff.
 
 ## what am I using?
@@ -17,5 +19,5 @@ send me a message pls
 
 ## Authors
 
-* **Dalia** - *Design & Code work* - [technomoda](https://github.com/technomoda)
+* **Dalia** - *design & code* - [technomoda](https://github.com/technomoda)
 * **Kevin** - *code* - [kevdez](https://github.com/kevdez)
