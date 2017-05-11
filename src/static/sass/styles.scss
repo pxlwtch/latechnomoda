@@ -7,6 +7,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (max-width: 750px) {
+    padding: 0;
+    margin: 0 auto;
+
+  }
 }
 
 .header {
@@ -16,15 +21,16 @@ body {
   justify-content: center;
   align-items: center;
   margin: 45px auto;
+  @media (max-width: 750px) {
+    margin: 10px 10px;
+
+    }
 }
 
 .vertical-navigation {
   flex: 1 3 auto;
 }
 .nav-link {
-  // min-width: 200px;
-  // max-width: 270px;
-  height: 50px;
   margin-bottom: 6px;
   display: flex;
   justify-content: flex-end;
@@ -34,25 +40,25 @@ body {
     max-width: 270px;
     min-width: 200px;
     border-radius: 2px;
-    .btn-text {
-      margin: 0;
-      padding-top: 1px;
-      font-family: $poppins;
-      font-size: 31px;
-      text-align: right;
-      margin-right: 10px;
-      letter-spacing: 1px;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    @media (max-width: 750px) {
+      min-width: 130px;
+
     }
+
   }
 }
 .name {
   flex: 1 1 auto;
   text-align: center;
+
   a {
     text-decoration: none;
     color: black;
     margin: 0 0;
+    @media (max-width: 750px) {
+      font-size: 34px;
+
+    }
   }
 }
 
@@ -87,6 +93,10 @@ body {
   font-weight: 100;
   letter-spacing: 1px;
   color: $complement-1;
+  @media (max-width: 750px) {
+    font-size: 17px;
+
+  }
 }
 
 .slash {
@@ -103,6 +113,7 @@ body {
   flex-flow: row wrap;
   justify-content: space-around;
   margin-top: 40px;
+
   .work-piece {
     position: relative;
     cursor: pointer;
@@ -114,9 +125,10 @@ body {
     min-height: 350px;
     text-align: center;
     border-radius: 2px;
-    @media(max-width: 750px) {
-      width: 100%;
+    @media(max-width: 885px) {
+      width: 90%;
       flex-basis: auto;
+      margin: 10px auto;
     }
     .work-thumbnail {
       position: absolute;
@@ -166,47 +178,8 @@ body {
         opacity: 1;
       }
     }
-
   }
- // .aqua-work-image {
- // }
- // .bandshite-work-image {
- //   background-image: url("../img/bandshite-workpiece-background.png");
- // }
- // .beverly-work-image {
- //   background-image: url("../img/beverly-workpiece-background.png");
- // }
- // .rosie-work-image {
- //   background-image: url("../img/rosie-workpiece-background.png");
- // }
 }
-  // .blur {
-  //   background-color: rgba(195, 193, 193, 0.9);
-  //   height: 100%;
-  //   width: 100%;
-  //   z-index: 5;
-  //   animation: border 2s 2s infinite linear;
-  //   position: absolute;
-  // }
-  // .caption {
-  //   cursor: pointer;
-  //   position: absolute;
-  //   opacity: 0;
-  //   -webkit-transition: all 0.45s ease-in-out;
-  //   -moz-transition: all 0.45s ease-in-out;
-  //   -o-transition: all 0.45s ease-in-out;
-  //   -ms-transition: all 0.45s ease-in-out;
-  //   transition: all 0.45s ease-in-out;
-  // }
-  // .caption-text {
-  //   z-index: 10;
-  //   color: #fff;
-  //   position: absolute;
-  //   width: 100%;
-  //   height: 100%;
-  //   margin-top: 10%;
-  //   text-align: center;
-  // }
 
 @keyframes border {
   0%{

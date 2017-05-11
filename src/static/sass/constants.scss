@@ -12,6 +12,7 @@ a {
   text-decoration: none;
 }
 
+
 @mixin transition($transition) {
   -webkit-transition: $transition;
   -moz-transition: $transition;
@@ -76,5 +77,54 @@ p {
     position: fixed;
     bottom: 10px;
     right: 10px;
+  }
+}
+.btn-text {
+  margin: 0;
+  padding-top: 1px;
+  font-family: $poppins;
+  font-size: 31px;
+  text-align: right;
+  margin-right: 10px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  @media (max-width: 750px) {
+      font-size: 26px;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+}
+.horizontal-navigation {
+  vertical-align: top;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  z-index: 2;
+  box-shadow: 0 0 5px grey;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  @media (max-width: 750px) {
+      box-shadow: 0 0;
+      width: 100%;
+      flex-direction: row;
+      justify-content: flex-end;
+  }
+  .h-nav-button {
+    margin-left: 10px;
+    margin: 0 8px;
+    width: 200px;
+    @media (max-width: 750px) {
+        width: 90px;
+        border-radius: 2px;
+        height: 40px;
+      }
   }
 }
