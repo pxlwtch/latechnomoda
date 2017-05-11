@@ -8,8 +8,19 @@
 .equation {
   margin: 50px 0px 0px;
   justify-content: space-between;
+  img {
+    @media (max-width: 750px) {
+      width: 130px;
+      }
+  }
+  .third-img {
+    @media (max-width: 750px) {
+      width: 260px;
+      }
+  }
 }
 .equation-character {
   font-size: 38px;
   color: $complement-2;
+
 }

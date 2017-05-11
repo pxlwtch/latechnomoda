@@ -113,6 +113,9 @@ body {
   flex-flow: row wrap;
   justify-content: space-around;
   margin-top: 40px;
+  @media (max-width: 750px) {
+    margin-top: 75px;
+    }
 
   .work-piece {
     position: relative;
