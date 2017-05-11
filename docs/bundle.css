@@ -20,10 +20,6 @@ p {
   .home-button img {
     height: 100%;
     width: 100%; }
-    @media (max-width: 750px) {
-      .home-button img {
-        width: 100px;
-        height: 50px; } }
 
 .copyright {
   bottom: 10px;
@@ -134,10 +130,6 @@ p {
   .home-button img {
     height: 100%;
     width: 100%; }
-    @media (max-width: 750px) {
-      .home-button img {
-        width: 100px;
-        height: 50px; } }
 
 .copyright {
   bottom: 10px;
@@ -462,10 +454,6 @@ p {
   .home-button img {
     height: 100%;
     width: 100%; }
-    @media (max-width: 750px) {
-      .home-button img {
-        width: 100px;
-        height: 50px; } }
 
 .copyright {
   bottom: 10px;
@@ -648,10 +636,6 @@ p {
   .home-button img {
     height: 100%;
     width: 100%; }
-    @media (max-width: 750px) {
-      .home-button img {
-        width: 100px;
-        height: 50px; } }
 
 .copyright {
   bottom: 10px;
@@ -813,10 +797,6 @@ p {
   .home-button img {
     height: 100%;
     width: 100%; }
-    @media (max-width: 750px) {
-      .home-button img {
-        width: 100px;
-        height: 50px; } }
 
 .copyright {
   bottom: 10px;
