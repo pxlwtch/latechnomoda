@@ -79,7 +79,8 @@ p {
       box-shadow: 0 0;
       width: 100%;
       flex-direction: row;
-      justify-content: flex-end; } }
+      justify-content: center;
+      padding-top: 50px; } }
   .horizontal-navigation .h-nav-button {
     margin-left: 10px;
     margin: 0 8px;
@@ -189,7 +190,8 @@ p {
       box-shadow: 0 0;
       width: 100%;
       flex-direction: row;
-      justify-content: flex-end; } }
+      justify-content: center;
+      padding-top: 50px; } }
   .horizontal-navigation .h-nav-button {
     margin-left: 10px;
     margin: 0 8px;
@@ -308,7 +310,7 @@ body {
   margin-top: 40px; }
   @media (max-width: 750px) {
     .work {
-      margin-top: 75px; } }
+      margin-top: 100px; } }
   .work .work-piece {
     position: relative;
     cursor: pointer;
@@ -513,7 +515,8 @@ p {
       box-shadow: 0 0;
       width: 100%;
       flex-direction: row;
-      justify-content: flex-end; } }
+      justify-content: center;
+      padding-top: 50px; } }
   .horizontal-navigation .h-nav-button {
     margin-left: 10px;
     margin: 0 8px;
@@ -695,7 +698,8 @@ p {
       box-shadow: 0 0;
       width: 100%;
       flex-direction: row;
-      justify-content: flex-end; } }
+      justify-content: center;
+      padding-top: 50px; } }
   .horizontal-navigation .h-nav-button {
     margin-left: 10px;
     margin: 0 8px;
@@ -723,7 +727,7 @@ a {
     .bio-content {
       margin: 0px;
       width: 100%;
-      margin-top: 20px; } }
+      margin-top: 85px; } }
   .bio-content h1 {
     color: #D14991;
     padding: 0 15px;
@@ -856,7 +860,8 @@ p {
       box-shadow: 0 0;
       width: 100%;
       flex-direction: row;
-      justify-content: flex-end; } }
+      justify-content: center;
+      padding-top: 50px; } }
   .horizontal-navigation .h-nav-button {
     margin-left: 10px;
     margin: 0 8px;
