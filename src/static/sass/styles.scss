@@ -59,6 +59,10 @@ body {
       font-size: 34px;
 
     }
+    @media (max-width: 450px) {
+      font-size: 20px;
+
+    }
   }
 }
 
@@ -95,6 +99,9 @@ body {
   color: $complement-1;
   @media (max-width: 750px) {
     font-size: 17px;
+  }
+  @media (max-width: 450px) {
+    font-size: 14px;
 
   }
 }
