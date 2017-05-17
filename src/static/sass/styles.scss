@@ -54,6 +54,7 @@ body {
   a {
     text-decoration: none;
     color: black;
+    font-size: 90px;
     margin: 0 0;
     @media (max-width: 750px) {
       font-size: 34px;
@@ -72,9 +73,6 @@ body {
 
 .name-plate {
   font-family: $poppins;
-  font-size: 90px;
-  height: 100px;
-  line-height: 90px;
   display: inline-block;
   &:hover {
     animation: name-hover 2s 1s infinite linear;
