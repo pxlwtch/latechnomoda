@@ -138,6 +138,7 @@ body {
     min-height: 350px;
     text-align: center;
     border-radius: 2px;
+    box-shadow: 0 0;
     @media(max-width: 885px) {
       width: 90%;
       flex-basis: auto;
@@ -153,16 +154,16 @@ body {
       z-index: -1;
     }
     .work-aqua-thumb {
-      background-image: url("../img/aqua-workpiece-background.png");
+      background-image: url("../img/aqua-workpiece.gif");
     }
     .work-bandshite-thumb {
-      background-image: url("../img/bandshite-workpiece-background.png");
+      background-image: url("../img/bandshite-workpiece.gif");
     }
     .work-beverly-thumb {
-      background-image: url("../img/beverly-workpiece-background.png");
+      background-image: url("../img/beverly-workpiece.gif");
     }
     .work-rosie-thumb {
-      background-image: url("../img/rosie-workpiece-background.png");
+      background-image: url("../img/rosie-workpiece.gif");
     }
     .caption {
       opacity: 0;
