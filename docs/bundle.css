@@ -85,8 +85,9 @@ p {
   .horizontal-navigation .h-nav-button {
     margin-left: 10px;
     margin: 0 8px;
-    width: 200px;
-    border-radius: 2px; }
+    width: 160px;
+    border-radius: 4px;
+    border: 3px solid #171717; }
     @media (max-width: 750px) {
       .horizontal-navigation .h-nav-button {
         width: 90px;
@@ -110,7 +111,7 @@ p {
 
 .equation-character {
   font-size: 38px;
-  color: #3454D1; }
+  color: #5A72D0; }
 a {
   text-decoration: none; }
 
@@ -198,8 +199,9 @@ p {
   .horizontal-navigation .h-nav-button {
     margin-left: 10px;
     margin: 0 8px;
-    width: 200px;
-    border-radius: 2px; }
+    width: 160px;
+    border-radius: 4px;
+    border: 3px solid #171717; }
     @media (max-width: 750px) {
       .horizontal-navigation .h-nav-button {
         width: 90px;
@@ -208,7 +210,8 @@ p {
 
 body {
   position: relative;
-  padding: 35px;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -219,13 +222,13 @@ body {
       margin: 0 auto; } }
 
 .header {
-  width: 95%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 45px auto;
-  height: 75vh; }
+  height: 100vh;
+  background-repeat: no-repeat; }
   @media (max-width: 750px) {
     .header {
       margin: 10px 10px;
@@ -242,9 +245,10 @@ body {
   .nav-link .nav-button {
     text-decoration: none;
     color: #FEFCFF;
-    max-width: 270px;
-    min-width: 200px;
-    border-radius: 2px; }
+    max-width: 160px;
+    min-width: 120px;
+    border-radius: 4px;
+    border: 3px solid #171717; }
     @media (max-width: 750px) {
       .nav-link .nav-button {
         min-width: 130px; } }
@@ -266,13 +270,13 @@ body {
         font-size: 20px; } }
 
 .one {
-  background-color: #D14991; }
+  background-color: #D383AD; }
 
 .two {
-  background-color: #3454D1; }
+  background-color: #5A72D0; }
 
 .three {
-  background-color: #34D1BF; }
+  background-color: #82E6DA; }
 
 .name-plate {
   font-family: "Poppins";
@@ -280,19 +284,19 @@ body {
   .name-plate:hover {
     animation: name-hover 2s 1s infinite linear;
     /*color: white;*/
-    text-shadow: 3px -3px #D14991; }
+    text-shadow: 3px -3px #D383AD; }
 
 @keyframes name-hover {
   0% {
-    text-shadow: 3px -3px #D14991; }
+    text-shadow: 3px -3px #D383AD; }
   20% {
-    text-shadow: 3px -3px #3454D1; }
+    text-shadow: 3px -3px #5A72D0; }
   40% {
-    text-shadow: 3px -3px #3454D1; }
+    text-shadow: 3px -3px #5A72D0; }
   60% {
-    text-shadow: 3px -3px #34D1BF; }
+    text-shadow: 3px -3px #82E6DA; }
   80% {
-    text-shadow: 3px -3px #34D1BF; } }
+    text-shadow: 3px -3px #82E6DA; } }
 
 .subtitle {
   font-family: "Open Sans";
@@ -300,7 +304,7 @@ body {
   margin: 0 auto;
   font-weight: 100;
   letter-spacing: 1px;
-  color: #D14991;
+  color: #D383AD;
   max-width: 60%; }
   @media (max-width: 750px) {
     .subtitle {
@@ -310,10 +314,10 @@ body {
       font-size: 11px; } }
 
 .slash {
-  color: #3454D1; }
+  color: #5A72D0; }
 
 .dev {
-  color: #34D1BF; }
+  color: #82E6DA; }
 
 .work {
   width: 100%;
@@ -327,7 +331,7 @@ body {
   .work .work-piece {
     position: relative;
     cursor: pointer;
-    border: 2px solid #3454D1;
+    border: 2px solid #5A72D0;
     font-family: "Open Sans";
     flex-basis: calc(47%);
     margin: 10px 20px 20px 0px;
@@ -362,7 +366,7 @@ body {
       position: absolute;
       height: 100%;
       width: 100%;
-      background-color: #3454D1;
+      background-color: #5A72D0;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -384,11 +388,11 @@ body {
 
 @keyframes border {
   0% {
-    border: 2px solid #D14991; }
+    border: 2px solid #D383AD; }
   50% {
-    border: 2px solid #3454D1; }
+    border: 2px solid #5A72D0; }
   100% {
-    border: 2px solid #34D1BF; } }
+    border: 2px solid #82E6DA; } }
 
 /*BOTTOM NAV*/
 .bottom-links {
@@ -535,8 +539,9 @@ p {
   .horizontal-navigation .h-nav-button {
     margin-left: 10px;
     margin: 0 8px;
-    width: 200px;
-    border-radius: 2px; }
+    width: 160px;
+    border-radius: 4px;
+    border: 3px solid #171717; }
     @media (max-width: 750px) {
       .horizontal-navigation .h-nav-button {
         width: 90px;
@@ -571,7 +576,7 @@ a {
   .separated-container .blue-text {
     min-width: 230px;
     max-width: 230px;
-    color: #3454D1;
+    color: #5A72D0;
     font-size: 22px;
     font-weight: 600;
     line-height: 37px;
@@ -635,18 +640,18 @@ a {
   height: 3px;
   border-radius: 5px;
   margin: 30px auto;
-  background-color: #3454D1;
+  background-color: #5A72D0;
   text-align: center; }
 
 @keyframes other-proj-colors {
   0% {
-    text-shadow: 0 0 2px #D14991; }
+    text-shadow: 0 0 2px #D383AD; }
   30% {
-    text-shadow: 0 0 2px #3454D1; }
+    text-shadow: 0 0 2px #5A72D0; }
   60% {
-    text-shadow: 0 0 2px #34D1BF; }
+    text-shadow: 0 0 2px #82E6DA; }
   100% {
-    text-shadow: 0 0 2px #D14991; } }
+    text-shadow: 0 0 2px #D383AD; } }
 a {
   text-decoration: none; }
 
@@ -734,8 +739,9 @@ p {
   .horizontal-navigation .h-nav-button {
     margin-left: 10px;
     margin: 0 8px;
-    width: 200px;
-    border-radius: 2px; }
+    width: 160px;
+    border-radius: 4px;
+    border: 3px solid #171717; }
     @media (max-width: 750px) {
       .horizontal-navigation .h-nav-button {
         width: 90px;
@@ -761,12 +767,12 @@ a {
       width: 100%;
       margin-top: 85px; } }
   .bio-content h1 {
-    color: #D14991;
+    color: #D383AD;
     padding: 0 15px;
     text-shadow: 1px 2px 2px black; }
   .bio-content h2 {
     font-size: 15px;
-    color: #D14991;
+    color: #D383AD;
     text-align: center;
     font-family: "Poppins";
     margin: 10px; }
@@ -776,7 +782,7 @@ a {
 .line {
   width: 90%;
   height: 2px;
-  background-color: #D14991;
+  background-color: #D383AD;
   text-align: center;
   margin: 10px auto; }
 
@@ -898,8 +904,9 @@ p {
   .horizontal-navigation .h-nav-button {
     margin-left: 10px;
     margin: 0 8px;
-    width: 200px;
-    border-radius: 2px; }
+    width: 160px;
+    border-radius: 4px;
+    border: 3px solid #171717; }
     @media (max-width: 750px) {
       .horizontal-navigation .h-nav-button {
         width: 90px;
