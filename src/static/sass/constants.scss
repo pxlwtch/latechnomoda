@@ -22,10 +22,11 @@ a {
   transition: $transition;
 }
 
-$open-sans-font: 'Open Sans';
+$open-sans-font: 'Open Sans', sans-serif;
 $poppins: 'montserrat alternates';
 
 $white: #FEFCFF;
+$greyish: #6D6D6D;
 $complement-1: #D383AD;
 $complement-2: #5A72D0;
 $complement-3: #82E6DA;
