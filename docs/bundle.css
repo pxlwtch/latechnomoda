@@ -1,104 +1,4 @@
-<<<<<<< HEAD
-@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);a {
-  text-decoration: none; }
-
-a {
-  text-decoration: none; }
-
-p {
-  margin: 0px; }
-
-.home-button {
-  height: 39px;
-  width: 82px;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 4; }
-  @media (max-width: 750px) {
-    .home-button {
-      top: 10px; } }
-  .home-button img {
-    height: 100%;
-    width: 100%; }
-
-.copyright {
-  bottom: 10px;
-  margin: 0px auto; }
-  .copyright h3 {
-    font-family: "montserrat alternates";
-    font-size: 11px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 30px;
-    color: black;
-    display: inline-block; }
-  .copyright .tiny-heart {
-    width: 15px; }
-  .copyright .tiny-envelope {
-    width: 35px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px; }
-    @media (max-width: 750px) {
-      .copyright .tiny-envelope {
-        width: 45px; } }
-
-.btn-text {
-  margin: 0;
-  padding-top: 1px;
-  font-family: "montserrat alternates";
-  font-size: 31px;
-  text-align: right;
-  margin-right: 10px;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
-  @media (max-width: 750px) {
-    .btn-text {
-      font-size: 26px;
-      letter-spacing: 1px;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); } }
-
-.horizontal-navigation {
-  vertical-align: top;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  padding: 10px;
-  z-index: 2;
-  box-shadow: 0 0 5px grey; }
-  .horizontal-navigation a {
-    text-decoration: none;
-    color: white; }
-  @media (max-width: 750px) {
-    .horizontal-navigation {
-      box-shadow: 0 0;
-      width: 100%;
-      flex-direction: row;
-      justify-content: center;
-      padding-top: 50px;
-      box-shadow: 0 0 5px grey; } }
-  .horizontal-navigation .h-nav-button {
-    margin-left: 10px;
-    margin: 0 8px;
-    width: 160px;
-    border-radius: 4px;
-    border: 3px solid #171717; }
-    @media (max-width: 750px) {
-      .horizontal-navigation .h-nav-button {
-        width: 90px;
-        border-radius: 2px;
-        height: 40px; } }
-
-#final-product-text {
-=======
 @import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);#final-product-text {
->>>>>>> update-home-delete-bio
   width: auto;
   margin: 50px auto 0px;
   font-size: 18px; }
@@ -247,7 +147,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: white; }
+  background-color: white;
+  box-shadow: 0 1px 1px 0px #c0c0c0; }
   .navigation-bar .nav-group {
     display: flex; }
     .navigation-bar .nav-group .nav-logo {
@@ -260,9 +161,6 @@ body {
     .navigation-bar .nav-group .nav-link {
       margin-bottom: 6px;
       display: flex;
-<<<<<<< HEAD
-      justify-content: flex-end; }
-=======
       justify-content: flex-end;
       opacity: 0.5;
       -webkit-transition: opacity 0.4s;
@@ -270,7 +168,6 @@ body {
       -ms-transition: opacity 0.4s;
       -o-transition: opacity 0.4s;
       transition: opacity 0.4s; }
->>>>>>> update-home-delete-bio
       .navigation-bar .nav-group .nav-link .nav-button {
         text-decoration: none;
         color: #FEFCFF;
@@ -283,8 +180,6 @@ body {
           font-family: "Open Sans", sans-serif;
           color: #6D6D6D;
           text-align: center; }
-<<<<<<< HEAD
-=======
     .navigation-bar .nav-group .nav-link:hover {
       opacity: 1; }
 
@@ -293,7 +188,6 @@ body {
   font-size: 26px;
   margin: 20px auto;
   color: #6D6D6D; }
->>>>>>> update-home-delete-bio
 
 .name {
   flex: 1 1 auto;
@@ -530,117 +424,14 @@ body {
 a {
   text-decoration: none; }
 
-<<<<<<< HEAD
-a {
-  text-decoration: none; }
-
-p {
-  margin: 0px; }
-
-.home-button {
-  height: 39px;
-  width: 82px;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 4; }
-  @media (max-width: 750px) {
-    .home-button {
-      top: 10px; } }
-  .home-button img {
-    height: 100%;
-    width: 100%; }
-
-.copyright {
-  bottom: 10px;
-  margin: 0px auto; }
-  .copyright h3 {
-    font-family: "montserrat alternates";
-    font-size: 11px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 30px;
-    color: black;
-    display: inline-block; }
-  .copyright .tiny-heart {
-    width: 15px; }
-  .copyright .tiny-envelope {
-    width: 35px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px; }
-    @media (max-width: 750px) {
-      .copyright .tiny-envelope {
-        width: 45px; } }
-
-.btn-text {
-  margin: 0;
-  padding-top: 1px;
-  font-family: "montserrat alternates";
-  font-size: 31px;
-  text-align: right;
-  margin-right: 10px;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
-  @media (max-width: 750px) {
-    .btn-text {
-      font-size: 26px;
-      letter-spacing: 1px;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); } }
-
-.horizontal-navigation {
-  vertical-align: top;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  padding: 10px;
-  z-index: 2;
-  box-shadow: 0 0 5px grey; }
-  .horizontal-navigation a {
-    text-decoration: none;
-    color: white; }
-  @media (max-width: 750px) {
-    .horizontal-navigation {
-      box-shadow: 0 0;
-      width: 100%;
-      flex-direction: row;
-      justify-content: center;
-      padding-top: 50px;
-      box-shadow: 0 0 5px grey; } }
-  .horizontal-navigation .h-nav-button {
-    margin-left: 10px;
-    margin: 0 8px;
-    width: 160px;
-    border-radius: 4px;
-    border: 3px solid #171717; }
-    @media (max-width: 750px) {
-      .horizontal-navigation .h-nav-button {
-        width: 90px;
-        border-radius: 2px;
-        height: 40px; } }
-
-a {
-  text-decoration: none; }
-
-=======
->>>>>>> update-home-delete-bio
 .case-study-container {
   width: 95%;
   max-width: 850px;
   height: auto;
   display: flex;
   flex-direction: column;
-  padding-top: 40px;
-<<<<<<< HEAD
-  font-family: "Open Sans", sans-serif;
-=======
+  padding-top: 80px;
   font-family: 'Open Sans', sans-serif;
->>>>>>> update-home-delete-bio
   font-size: 16px; }
   @media (max-width: 750px) {
     .case-study-container {
@@ -714,11 +505,7 @@ a {
     font-weight: 400;
     letter-spacing: 1px;
     font-size: 28px;
-<<<<<<< HEAD
-    font-family: "montserrat alternates";
-=======
     font-family: 'montserrat alternates';
->>>>>>> update-home-delete-bio
     color: black; }
 
 .blue-line {
@@ -738,161 +525,6 @@ a {
     text-shadow: 0 0 2px #82E6DA; }
   100% {
     text-shadow: 0 0 2px #D383AD; } }
-<<<<<<< HEAD
-a {
-  text-decoration: none; }
-
-a {
-  text-decoration: none; }
-
-p {
-  margin: 0px; }
-
-.home-button {
-  height: 39px;
-  width: 82px;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 4; }
-  @media (max-width: 750px) {
-    .home-button {
-      top: 10px; } }
-  .home-button img {
-    height: 100%;
-    width: 100%; }
-
-.copyright {
-  bottom: 10px;
-  margin: 0px auto; }
-  .copyright h3 {
-    font-family: "montserrat alternates";
-    font-size: 11px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 30px;
-    color: black;
-    display: inline-block; }
-  .copyright .tiny-heart {
-    width: 15px; }
-  .copyright .tiny-envelope {
-    width: 35px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px; }
-    @media (max-width: 750px) {
-      .copyright .tiny-envelope {
-        width: 45px; } }
-
-.btn-text {
-  margin: 0;
-  padding-top: 1px;
-  font-family: "montserrat alternates";
-  font-size: 31px;
-  text-align: right;
-  margin-right: 10px;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
-  @media (max-width: 750px) {
-    .btn-text {
-      font-size: 26px;
-      letter-spacing: 1px;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); } }
-
-.horizontal-navigation {
-  vertical-align: top;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  padding: 10px;
-  z-index: 2;
-  box-shadow: 0 0 5px grey; }
-  .horizontal-navigation a {
-    text-decoration: none;
-    color: white; }
-  @media (max-width: 750px) {
-    .horizontal-navigation {
-      box-shadow: 0 0;
-      width: 100%;
-      flex-direction: row;
-      justify-content: center;
-      padding-top: 50px;
-      box-shadow: 0 0 5px grey; } }
-  .horizontal-navigation .h-nav-button {
-    margin-left: 10px;
-    margin: 0 8px;
-    width: 160px;
-    border-radius: 4px;
-    border: 3px solid #171717; }
-    @media (max-width: 750px) {
-      .horizontal-navigation .h-nav-button {
-        width: 90px;
-        border-radius: 2px;
-        height: 40px; } }
-
-a {
-  text-decoration: none; }
-
-.bio-content {
-  background-color: white;
-  margin-top: 15px;
-  width: 90%;
-  max-width: 850px;
-  display: flex;
-  flex-direction: column;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  margin-top: 40px; }
-  @media (max-width: 750px) {
-    .bio-content {
-      margin: 0px;
-      width: 100%;
-      margin-top: 85px; } }
-  .bio-content h1 {
-    color: #D383AD;
-    padding: 0 15px;
-    text-shadow: 1px 2px 2px black; }
-  .bio-content h2 {
-    font-size: 15px;
-    color: #D383AD;
-    text-align: center;
-    font-family: "montserrat alternates";
-    margin: 10px; }
-  .bio-content p {
-    margin: 20px 15px; }
-
-.line {
-  width: 90%;
-  height: 2px;
-  background-color: #D383AD;
-  text-align: center;
-  margin: 10px auto; }
-
-.other-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-  @media (max-width: 750px) {
-    .other-info {
-      flex-direction: column; } }
-  .other-info div {
-    margin: 10px 40px;
-    font-family: "Open Sans", sans-serif; }
-    .other-info div h2 {
-      font-size: 19px; }
-      @media (max-width: 750px) {
-        .other-info div h2 {
-          text-align: left; } }
-    .other-info div a {
-      text-decoration: none;
-      color: black; }
-=======
->>>>>>> update-home-delete-bio
 .logo-description {
   flex-grow: 2;
   line-height: 30px;
@@ -906,105 +538,6 @@ a {
   font-style: italic;
   font-size: 20px;
   text-align: center; }
-<<<<<<< HEAD
-a {
-  text-decoration: none; }
-
-a {
-  text-decoration: none; }
-
-p {
-  margin: 0px; }
-
-.home-button {
-  height: 39px;
-  width: 82px;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 4; }
-  @media (max-width: 750px) {
-    .home-button {
-      top: 10px; } }
-  .home-button img {
-    height: 100%;
-    width: 100%; }
-
-.copyright {
-  bottom: 10px;
-  margin: 0px auto; }
-  .copyright h3 {
-    font-family: "montserrat alternates";
-    font-size: 11px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 30px;
-    color: black;
-    display: inline-block; }
-  .copyright .tiny-heart {
-    width: 15px; }
-  .copyright .tiny-envelope {
-    width: 35px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px; }
-    @media (max-width: 750px) {
-      .copyright .tiny-envelope {
-        width: 45px; } }
-
-.btn-text {
-  margin: 0;
-  padding-top: 1px;
-  font-family: "montserrat alternates";
-  font-size: 31px;
-  text-align: right;
-  margin-right: 10px;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
-  @media (max-width: 750px) {
-    .btn-text {
-      font-size: 26px;
-      letter-spacing: 1px;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); } }
-
-.horizontal-navigation {
-  vertical-align: top;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  padding: 10px;
-  z-index: 2;
-  box-shadow: 0 0 5px grey; }
-  .horizontal-navigation a {
-    text-decoration: none;
-    color: white; }
-  @media (max-width: 750px) {
-    .horizontal-navigation {
-      box-shadow: 0 0;
-      width: 100%;
-      flex-direction: row;
-      justify-content: center;
-      padding-top: 50px;
-      box-shadow: 0 0 5px grey; } }
-  .horizontal-navigation .h-nav-button {
-    margin-left: 10px;
-    margin: 0 8px;
-    width: 160px;
-    border-radius: 4px;
-    border: 3px solid #171717; }
-    @media (max-width: 750px) {
-      .horizontal-navigation .h-nav-button {
-        width: 90px;
-        border-radius: 2px;
-        height: 40px; } }
-
-=======
->>>>>>> update-home-delete-bio
 .third-image {
   width: 180px;
   margin: 65px auto; }
@@ -1013,11 +546,7 @@ p {
   margin-top: 70px; }
 
 .lone-paragraph a {
-<<<<<<< HEAD
-  font-family: "Open Sans", sans-serif;
-=======
   font-family: 'Open Sans', sans-serif;
->>>>>>> update-home-delete-bio
   font-weight: bold;
   color: black; }
 .rosie-third-image {
