@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -104,12 +104,6 @@
 
 /***/ }),
 /* 6 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -10369,18 +10363,16 @@ return jQuery;
 
 
 /***/ }),
-/* 8 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
-const $ = __webpack_require__(7);
+const $ = __webpack_require__(6);
 __webpack_require__(0);
-__webpack_require__(6);
-__webpack_require__(4);
+__webpack_require__(5);
 __webpack_require__(3);
 __webpack_require__(1);
 __webpack_require__(2);
-__webpack_require__(5);
-//require('./static/sass/work.scss');
+__webpack_require__(4);
 
 console.log('hi this site was made with ❤︎ by @daliafyi and @0XDEAD37 on twitter');
 
@@ -10388,6 +10380,27 @@ console.log('hi this site was made with ❤︎ by @daliafyi and @0XDEAD37 on twi
 $('.subtitle').on('click', function(){
   console.log("you clicked on subtitle");
 })
+$('a').on('click', function(event) {
+
+
+  if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+  }
+});
 
 
 /***/ })

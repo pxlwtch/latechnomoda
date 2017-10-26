@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);a {
   text-decoration: none; }
 
@@ -95,6 +96,9 @@ p {
         height: 40px; } }
 
 #final-product-text {
+=======
+@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);#final-product-text {
+>>>>>>> update-home-delete-bio
   width: auto;
   margin: 50px auto 0px;
   font-size: 18px; }
@@ -256,7 +260,17 @@ body {
     .navigation-bar .nav-group .nav-link {
       margin-bottom: 6px;
       display: flex;
+<<<<<<< HEAD
       justify-content: flex-end; }
+=======
+      justify-content: flex-end;
+      opacity: 0.5;
+      -webkit-transition: opacity 0.4s;
+      -moz-transition: opacity 0.4s;
+      -ms-transition: opacity 0.4s;
+      -o-transition: opacity 0.4s;
+      transition: opacity 0.4s; }
+>>>>>>> update-home-delete-bio
       .navigation-bar .nav-group .nav-link .nav-button {
         text-decoration: none;
         color: #FEFCFF;
@@ -269,6 +283,17 @@ body {
           font-family: "Open Sans", sans-serif;
           color: #6D6D6D;
           text-align: center; }
+<<<<<<< HEAD
+=======
+    .navigation-bar .nav-group .nav-link:hover {
+      opacity: 1; }
+
+.section-title {
+  font-family: "montserrat alternates";
+  font-size: 26px;
+  margin: 20px auto;
+  color: #6D6D6D; }
+>>>>>>> update-home-delete-bio
 
 .name {
   flex: 1 1 auto;
@@ -333,7 +358,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin-top: 40px; }
+  margin-top: 65px; }
   @media (max-width: 750px) {
     .work {
       margin-top: 100px; } }
@@ -394,6 +419,47 @@ body {
           margin-top: 40px; }
     .work .work-piece:hover .caption {
       opacity: 1; }
+
+.pink-separator {
+  background-color: #D383AD;
+  height: 4px;
+  width: 90%;
+  margin: 30px auto; }
+
+.bio-content {
+  background-color: white;
+  width: 90%;
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px; }
+  @media (max-width: 750px) {
+    .bio-content {
+      margin: 0px;
+      width: 100%;
+      margin-top: 85px; } }
+  .bio-content p {
+    margin: 20px 15px; }
+
+.other-info {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif; }
+  .other-info .bio-titles {
+    font-size: 24px;
+    color: #D383AD;
+    text-align: center; }
+  @media (max-width: 750px) {
+    .other-info {
+      flex-direction: column; } }
+  .other-info div {
+    margin: 10px auto; }
+    .other-info div a {
+      text-decoration: none;
+      color: black;
+      font-size: 24px; }
 
 @keyframes border {
   0% {
@@ -464,6 +530,7 @@ body {
 a {
   text-decoration: none; }
 
+<<<<<<< HEAD
 a {
   text-decoration: none; }
 
@@ -560,6 +627,8 @@ p {
 a {
   text-decoration: none; }
 
+=======
+>>>>>>> update-home-delete-bio
 .case-study-container {
   width: 95%;
   max-width: 850px;
@@ -567,7 +636,11 @@ a {
   display: flex;
   flex-direction: column;
   padding-top: 40px;
+<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
+=======
+  font-family: 'Open Sans', sans-serif;
+>>>>>>> update-home-delete-bio
   font-size: 16px; }
   @media (max-width: 750px) {
     .case-study-container {
@@ -641,7 +714,11 @@ a {
     font-weight: 400;
     letter-spacing: 1px;
     font-size: 28px;
+<<<<<<< HEAD
     font-family: "montserrat alternates";
+=======
+    font-family: 'montserrat alternates';
+>>>>>>> update-home-delete-bio
     color: black; }
 
 .blue-line {
@@ -661,6 +738,7 @@ a {
     text-shadow: 0 0 2px #82E6DA; }
   100% {
     text-shadow: 0 0 2px #D383AD; } }
+<<<<<<< HEAD
 a {
   text-decoration: none; }
 
@@ -813,6 +891,8 @@ a {
     .other-info div a {
       text-decoration: none;
       color: black; }
+=======
+>>>>>>> update-home-delete-bio
 .logo-description {
   flex-grow: 2;
   line-height: 30px;
@@ -826,6 +906,7 @@ a {
   font-style: italic;
   font-size: 20px;
   text-align: center; }
+<<<<<<< HEAD
 a {
   text-decoration: none; }
 
@@ -922,6 +1003,8 @@ p {
         border-radius: 2px;
         height: 40px; } }
 
+=======
+>>>>>>> update-home-delete-bio
 .third-image {
   width: 180px;
   margin: 65px auto; }
@@ -930,7 +1013,11 @@ p {
   margin-top: 70px; }
 
 .lone-paragraph a {
+<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
+=======
+  font-family: 'Open Sans', sans-serif;
+>>>>>>> update-home-delete-bio
   font-weight: bold;
   color: black; }
 .rosie-third-image {
