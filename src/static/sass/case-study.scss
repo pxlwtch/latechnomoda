@@ -1,5 +1,3 @@
-@import "constants.scss";
-
 a {
   text-decoration: none;
 }
@@ -11,7 +9,7 @@ a {
   display: flex;
   flex-direction: column;
   padding-top: 40px;
-  font-family: $open-sans-font;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   @media (max-width: 750px) {
     margin-top: 100px;
@@ -29,7 +27,7 @@ a {
     .blue-text {
       min-width: 230px;
       max-width: 230px;
-      color: $complement-2;
+      color: #5A72D0;
       font-size: 22px;
       font-weight: 600;
       line-height: 37px;
@@ -87,14 +85,14 @@ a {
    margin: 20px auto;
    text-align: center;
    font-size: 22px;
-  //  color: $complement-2;
+  //  color: #5A72D0;
    font-weight: 600;
    a {
      animation: other-proj-colors 3s 1s infinite alternate;
      font-weight: 400;
      letter-spacing: 1px;
      font-size: 28px;
-     font-family: $poppins;
+     font-family: 'montserrat alternates';
      color: black;
   }
 }
@@ -103,21 +101,21 @@ a {
   height: 3px;
   border-radius: 5px;
   margin: 30px auto;
-  background-color: $complement-2;
+  background-color: #5A72D0;
   text-align: center;
 }
 
 @keyframes other-proj-colors {
   0%{
-    text-shadow: 0 0 2px $complement-1;
+    text-shadow: 0 0 2px #D383AD;
   }
   30%{
-    text-shadow: 0 0 2px $complement-2;
+    text-shadow: 0 0 2px #5A72D0;
    }
   60%{
-    text-shadow: 0 0 2px $complement-3;
+    text-shadow: 0 0 2px #82E6DA;
   }
   100%{
-    text-shadow: 0 0 2px $complement-1;
+    text-shadow: 0 0 2px #D383AD;
   }
 }

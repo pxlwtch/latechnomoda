@@ -12,7 +12,6 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({filename: 'index.html', template: 'src/index.html'}),
-    new HtmlWebpackPlugin({filename: 'bio.html', template: 'src/bio.html'}),
     new HtmlWebpackPlugin({filename: 'work.html', template: 'src/work.html'}),
     new HtmlWebpackPlugin({filename: 'case-study/aqua.html', template: 'src/case-study/aqua.html'}),
     new HtmlWebpackPlugin({filename: 'case-study/bandshite.html', template: 'src/case-study/bandshite.html'}),
