@@ -1,3 +1,4 @@
+@import "normalize.scss";
 @import "constants.scss";
 
 body {
@@ -29,10 +30,6 @@ body {
   // margin: 45px auto;
   height: 100vh;
   background-repeat:no-repeat;
-  @media (max-width: 750px) {
-    // margin: 10px 10px;
-    height: 100vh;
-    }
 }
 
 .navigation-bar {
@@ -67,8 +64,11 @@ body {
         color: $white;
         max-width: 160px;
         min-width: 120px;
-        @media (max-width: 750px) {
-          min-width: 130px;
+        @media (max-width: 450px) {
+          min-width: 110px;
+        }
+        @media (max-width: 370px) {
+          min-width: 60px;
         }
         .nav-button-text {
           font-family: $open-sans-font;
@@ -86,8 +86,12 @@ body {
 .section-title {
   font-family: $poppins;
   font-size: 26px;
-  margin: 20px auto;
+  margin: 40px auto;
   color: $greyish;
+  @media (max-width: 450px) {
+    font-size: 20px;
+    margin: 20px auto;
+  }
 }
 .name {
   flex: 1 1 auto;
@@ -140,7 +144,7 @@ body {
     font-size: 13px;
   }
   @media (max-width: 450px) {
-    font-size: 11px;
+    font-size: 12px;
 
   }
 }
@@ -158,10 +162,86 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin-top: 65px;
+  margin-top: 100px;
   @media (max-width: 750px) {
-    margin-top: 100px;
+    // margin-top: 100px;
+  }
+
+  .work-piece {
+    position: relative;
+    cursor: pointer;
+    border: 2px solid $complement-2;
+    font-family: $open-sans-font;
+    flex-basis: calc(47%);
+    margin: 10px 20px 20px 0px;
+    min-width: 300px;
+    min-height: 350px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0 0;
+    @media(max-width: 885px) {
+      width: 90%;
+      flex-basis: auto;
+      margin: 10px auto;
     }
+    .work-thumbnail {
+      position: absolute;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    .work-aqua-thumb {
+      background-image: url("../img/aqua-workpiece-background.png");
+    }
+    .work-bandshite-thumb {
+      background-image: url("../img/bandshite-workpiece-background.png");
+    }
+    .work-beverly-thumb {
+      background-image: url("../img/beverly-workpiece-background.png");
+    }
+    .work-rosie-thumb {
+      background-image: url("../img/rosie-workpiece-background.png");
+    }
+    .caption {
+      opacity: 0;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: $complement-2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      @include transition(opacity .4s ease-out);
+      .caption-text {
+        font-family: $open-sans-font;
+        color: $white;
+        h1 {
+          font-size: 18px;
+        }
+        p {
+          font-size: 16px;
+          margin-top: 40px;
+        }
+      }
+    }
+    &:hover {
+      .caption {
+        opacity: 1;
+      }
+    }
+  }
+}
+.work-showcase {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  @media (max-width: 750px) {
+    // margin-top: 100px;
+  }
 
   .work-piece {
     position: relative;
@@ -246,19 +326,20 @@ body {
   font-family: $open-sans-font;
   font-size: 24px;
   @media (max-width: 750px) {
-      margin: 0px;
       width: 100%;
-      margin-top: 85px;
+      margin: 85px 0 0 0;
   }
-  // h1 {
-  //   color: $complement-1;
-  //   padding: 0 15px;
-  //   text-shadow: 1px 2px 2px black;
-  // }
+  @media (max-width: 450px) {
+      width: 100%;
+      margin: 0;
+  }
   p {
     margin: 20px 15px;
+    @media (max-width: 450px) {
+      font-size: 16px;
+      line-height: initial;
+    }
   }
-
 }
 .other-info {
   display: flex;
@@ -269,6 +350,9 @@ body {
     font-size: 24px;
     color: $complement-1;
     text-align: center;
+    @media (max-width: 450px) {
+      font-size: 20px;
+    }
   }
   @media (max-width: 750px) {
     flex-direction: column;
@@ -279,6 +363,9 @@ body {
       text-decoration: none;
       color: black;
       font-size: 24px;
+      @media (max-width: 450px) {
+        font-size: 16px;
+      }
     }
   }
 }
@@ -312,6 +399,10 @@ body {
   border-radius: 50%;
   margin: 10px;
   @include transition(background-color 0.4s ease);
+  @media (max-width: 450px) {
+      height: 1.5em;
+      width: 1.5em;
+  }
 }
 
 .goof {
