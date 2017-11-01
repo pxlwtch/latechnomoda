@@ -42,12 +42,13 @@ body {
   justify-content: space-between;
   background-color: white;
   box-shadow: 0 1px 1px 0px #c0c0c0;
+  z-index: 1;
   .nav-group {
     display: flex;
     .nav-logo {
       width: 33px;
       height: 33px;
-      padding: 20px;
+      padding: 20px 20px 20px 25px;
       img {
         width: 100%;
         height: 100%;
@@ -84,8 +85,8 @@ body {
 
 }
 .section-title {
-  font-family: $poppins;
-  font-size: 26px;
+  font-family: $montserrat-font;
+  font-size: 22px;
   margin: 40px auto;
   color: $greyish;
   @media (max-width: 450px) {
@@ -105,18 +106,16 @@ body {
     margin: 0 0;
     line-height: 100px;
     @media (max-width: 750px) {
-      font-size: 54px;
-
+      font-size: 60px;
     }
     @media (max-width: 450px) {
-      font-size: 20px;
-
+      line-height: 65px;
     }
   }
 }
 
 .name-plate {
-  font-family: $poppins;
+  font-family: $montserrat-alternates-font;
   display: inline-block;
   &:hover {
     animation: name-hover 2s 1s infinite linear;
@@ -130,22 +129,26 @@ body {
     60%{ text-shadow: 3px -3px  $complement-3; }
     80%{ text-shadow: 3px -3px  $complement-3; }
   }
+  @media (max-width: 750px) {
+    height: 80px;
+  }
 }
 
 .subtitle {
   font-family: $open-sans-font;
   font-size: 16px;
-  margin: 0 auto;
+  margin: 5px auto 0;
   font-weight: 100;
   letter-spacing: 1px;
-  color: $complement-1;
+  line-height: 25px;
+  color: black;
   max-width: 60%;
   @media (max-width: 750px) {
     font-size: 13px;
   }
   @media (max-width: 450px) {
     font-size: 12px;
-
+    margin-top: 15px;
   }
 }
 
@@ -173,7 +176,7 @@ body {
     border: 2px solid $complement-2;
     font-family: $open-sans-font;
     flex-basis: calc(47%);
-    margin: 10px 20px 20px 0px;
+    margin: 15px auto;
     min-width: 300px;
     min-height: 350px;
     text-align: center;
@@ -249,7 +252,6 @@ body {
     border: 2px solid $complement-2;
     font-family: $open-sans-font;
     flex-basis: calc(47%);
-    margin: 10px 20px 20px 0px;
     min-width: 300px;
     min-height: 350px;
     text-align: center;
@@ -324,10 +326,11 @@ body {
   display: flex;
   flex-direction: column;
   font-family: $open-sans-font;
-  font-size: 24px;
+  font-size: 17px;
+  line-height: 26px;
   @media (max-width: 750px) {
       width: 100%;
-      margin: 85px 0 0 0;
+      margin: 25px 0 0 0;
   }
   @media (max-width: 450px) {
       width: 100%;
@@ -345,14 +348,11 @@ body {
   display: flex;
   width: 75%;
   justify-content: space-between;
-  font-family: $open-sans-font;
+  font-family: $montserrat-font;
   .bio-titles {
-    font-size: 24px;
+    font-size: 20px;
     color: $complement-1;
     text-align: center;
-    @media (max-width: 450px) {
-      font-size: 20px;
-    }
   }
   @media (max-width: 750px) {
     flex-direction: column;
@@ -360,12 +360,17 @@ body {
   div {
     margin: 10px auto;
     a {
-      text-decoration: none;
+      text-decoration: underline;
       color: black;
-      font-size: 24px;
+      font-size: 17px;
+      font-style: italic;
+      line-height: 26px;
       @media (max-width: 450px) {
         font-size: 16px;
       }
+    }
+    a:visited {
+      color: $complement-2;
     }
   }
 }

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);#final-product-text {
+@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);@import url(https://fonts.googleapis.com/css?family=Montserrat);#final-product-text {
   width: auto;
   margin: 50px auto 0px;
   font-size: 18px; }
@@ -432,9 +432,9 @@ p {
 
 .copyright {
   bottom: 10px;
-  margin: 0px auto; }
+  margin: 30px auto 30px; }
   .copyright h3 {
-    font-family: "montserrat alternates";
+    font-family: "Montserrat Alternates", sans-serif;
     font-size: 11px;
     margin: 0 auto;
     text-align: center;
@@ -455,7 +455,7 @@ p {
 .btn-text {
   margin: 0;
   padding-top: 1px;
-  font-family: "montserrat alternates";
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 31px;
   text-align: right;
   margin-right: 10px;
@@ -536,13 +536,14 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  box-shadow: 0 1px 1px 0px #c0c0c0; }
+  box-shadow: 0 1px 1px 0px #c0c0c0;
+  z-index: 1; }
   .navigation-bar .nav-group {
     display: flex; }
     .navigation-bar .nav-group .nav-logo {
       width: 33px;
       height: 33px;
-      padding: 20px; }
+      padding: 20px 20px 20px 25px; }
       .navigation-bar .nav-group .nav-logo img {
         width: 100%;
         height: 100%; }
@@ -575,8 +576,8 @@ body {
       opacity: 1; }
 
 .section-title {
-  font-family: "montserrat alternates";
-  font-size: 26px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
   margin: 40px auto;
   color: #6D6D6D; }
   @media (max-width: 450px) {
@@ -596,13 +597,13 @@ body {
     line-height: 100px; }
     @media (max-width: 750px) {
       .name a {
-        font-size: 54px; } }
+        font-size: 60px; } }
     @media (max-width: 450px) {
       .name a {
-        font-size: 20px; } }
+        line-height: 65px; } }
 
 .name-plate {
-  font-family: "montserrat alternates";
+  font-family: "Montserrat Alternates", sans-serif;
   display: inline-block; }
   .name-plate:hover {
     animation: name-hover 2s 1s infinite linear;
@@ -620,21 +621,26 @@ body {
     text-shadow: 3px -3px #82E6DA; }
   80% {
     text-shadow: 3px -3px #82E6DA; } }
+  @media (max-width: 750px) {
+    .name-plate {
+      height: 80px; } }
 
 .subtitle {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  margin: 0 auto;
+  margin: 5px auto 0;
   font-weight: 100;
   letter-spacing: 1px;
-  color: #D383AD;
+  line-height: 25px;
+  color: black;
   max-width: 60%; }
   @media (max-width: 750px) {
     .subtitle {
       font-size: 13px; } }
   @media (max-width: 450px) {
     .subtitle {
-      font-size: 12px; } }
+      font-size: 12px;
+      margin-top: 15px; } }
 
 .slash {
   color: #5A72D0; }
@@ -654,7 +660,7 @@ body {
     border: 2px solid #5A72D0;
     font-family: "Open Sans", sans-serif;
     flex-basis: calc(47%);
-    margin: 10px 20px 20px 0px;
+    margin: 15px auto;
     min-width: 300px;
     min-height: 350px;
     text-align: center;
@@ -717,7 +723,6 @@ body {
     border: 2px solid #5A72D0;
     font-family: "Open Sans", sans-serif;
     flex-basis: calc(47%);
-    margin: 10px 20px 20px 0px;
     min-width: 300px;
     min-height: 350px;
     text-align: center;
@@ -782,11 +787,12 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Open Sans", sans-serif;
-  font-size: 24px; }
+  font-size: 17px;
+  line-height: 26px; }
   @media (max-width: 750px) {
     .bio-content {
       width: 100%;
-      margin: 85px 0 0 0; } }
+      margin: 25px 0 0 0; } }
   @media (max-width: 450px) {
     .bio-content {
       width: 100%;
@@ -802,26 +808,27 @@ body {
   display: flex;
   width: 75%;
   justify-content: space-between;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
   .other-info .bio-titles {
-    font-size: 24px;
+    font-size: 20px;
     color: #D383AD;
     text-align: center; }
-    @media (max-width: 450px) {
-      .other-info .bio-titles {
-        font-size: 20px; } }
   @media (max-width: 750px) {
     .other-info {
       flex-direction: column; } }
   .other-info div {
     margin: 10px auto; }
     .other-info div a {
-      text-decoration: none;
+      text-decoration: underline;
       color: black;
-      font-size: 24px; }
+      font-size: 17px;
+      font-style: italic;
+      line-height: 26px; }
       @media (max-width: 450px) {
         .other-info div a {
           font-size: 16px; } }
+    .other-info div a:visited {
+      color: #5A72D0; }
 
 @keyframes border {
   0% {

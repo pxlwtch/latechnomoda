@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400');
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 a {
   text-decoration: none;
@@ -23,7 +24,8 @@ a {
 }
 
 $open-sans-font: 'Open Sans', sans-serif;
-$poppins: 'montserrat alternates';
+$montserrat-font: 'Montserrat', sans-serif;
+$montserrat-alternates-font: 'Montserrat Alternates', sans-serif;
 
 $white: #FEFCFF;
 $greyish: #6D6D6D;
@@ -67,9 +69,9 @@ body {
 }
 .copyright {
   bottom: 10px;
-  margin: 0px auto;
+  margin: 30px auto 30px;
   h3 {
-    font-family: $poppins;
+    font-family: $montserrat-alternates-font;
     font-size: 11px;
     margin: 0 auto;
     text-align: center;
@@ -93,7 +95,7 @@ body {
 .btn-text {
   margin: 0;
   padding-top: 1px;
-  font-family: $poppins;
+  font-family: $montserrat-alternates-font;
   font-size: 31px;
   text-align: right;
   margin-right: 10px;
