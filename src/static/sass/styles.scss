@@ -41,7 +41,7 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  box-shadow: 0 1px 1px 0px #c0c0c0;
+  // box-shadow: 0 1px 1px 0px #c0c0c0;
   z-index: 1;
   .nav-group {
     display: flex;
@@ -87,7 +87,7 @@ body {
 .section-title {
   font-family: $montserrat-font;
   font-size: 22px;
-  margin: 0px auto 40px;
+  margin: 40px auto 30px;
   color: $greyish;
   @media (max-width: 450px) {
     font-size: 20px;
@@ -142,7 +142,8 @@ body {
   letter-spacing: 1px;
   line-height: 25px;
   color: black;
-  max-width: 48%;
+  max-width: 50%;
+  min-width: 45%;
   @media (max-width: 750px) {
     font-size: 13px;
     min-width: 66%;
@@ -179,18 +180,24 @@ body {
     .caption{background-color: $complement-2;}
   }
 
+
   .work-piece {
     position: relative;
     cursor: pointer;
-    border: 2px solid $complement-2;
+    // border: 2px solid $complement-2;
     font-family: $open-sans-font;
+    font-weight: 700;
     flex-basis: calc(47%);
     margin: 15px auto;
     min-width: 300px;
     min-height: 350px;
     text-align: center;
-    border-radius: 2px;
+    border-radius: 3px;
     box-shadow: 0 0;
+    h1 {
+      font-size: 22px;
+      font-family: $montserrat-font;
+    }
     @media(max-width: 885px) {
       width: 90%;
       flex-basis: auto;
@@ -259,13 +266,13 @@ body {
   .work-piece {
     position: relative;
     cursor: pointer;
-    border: 2px solid $complement-2;
+    // border: 2px solid $complement-2;
     font-family: $open-sans-font;
     flex-basis: calc(47%);
     min-width: 300px;
     min-height: 350px;
     text-align: center;
-    border-radius: 2px;
+    // border-radius: 2px;
     box-shadow: 0 0;
     @media(max-width: 885px) {
       width: 90%;
@@ -273,7 +280,8 @@ body {
       margin: 10px auto;
     }
     .work-thumbnail {
-      opacity: 0;
+      z-index: 1;
+      opacity: .2;
       @include transition(opacity .4s ease-out);
       position: absolute;
       background-size: contain;
