@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);@import url(https://fonts.googleapis.com/css?family=Montserrat);#final-product-text {
+@import url(https://fonts.googleapis.com/css?family=Poppins);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700);@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);@import url(https://fonts.googleapis.com/css?family=Montserrat);#final-product-text {
   width: auto;
   margin: 50px auto 0px;
   font-size: 18px; }
@@ -536,7 +536,6 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  box-shadow: 0 1px 1px 0px #c0c0c0;
   z-index: 1; }
   .navigation-bar .nav-group {
     display: flex; }
@@ -578,7 +577,7 @@ body {
 .section-title {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
-  margin: 0px auto 40px;
+  margin: 40px auto 30px;
   color: #6D6D6D; }
   @media (max-width: 450px) {
     .section-title {
@@ -633,7 +632,8 @@ body {
   letter-spacing: 1px;
   line-height: 25px;
   color: black;
-  max-width: 48%; }
+  max-width: 50%;
+  min-width: 45%; }
   @media (max-width: 750px) {
     .subtitle {
       font-size: 13px;
@@ -665,15 +665,18 @@ body {
   .work .work-piece {
     position: relative;
     cursor: pointer;
-    border: 2px solid #5A72D0;
     font-family: "Open Sans", sans-serif;
+    font-weight: 700;
     flex-basis: calc(47%);
     margin: 15px auto;
     min-width: 300px;
     min-height: 350px;
     text-align: center;
-    border-radius: 2px;
+    border-radius: 3px;
     box-shadow: 0 0; }
+    .work .work-piece h1 {
+      font-size: 22px;
+      font-family: "Montserrat", sans-serif; }
     @media (max-width: 885px) {
       .work .work-piece {
         width: 90%;
@@ -736,13 +739,11 @@ body {
   .work-showcase .work-piece {
     position: relative;
     cursor: pointer;
-    border: 2px solid #5A72D0;
     font-family: "Open Sans", sans-serif;
     flex-basis: calc(47%);
     min-width: 300px;
     min-height: 350px;
     text-align: center;
-    border-radius: 2px;
     box-shadow: 0 0; }
     @media (max-width: 885px) {
       .work-showcase .work-piece {
@@ -750,7 +751,8 @@ body {
         flex-basis: auto;
         margin: 10px auto; } }
     .work-showcase .work-piece .work-thumbnail {
-      opacity: 0;
+      z-index: 1;
+      opacity: .2;
       -webkit-transition: opacity 0.4s ease-out;
       -moz-transition: opacity 0.4s ease-out;
       -ms-transition: opacity 0.4s ease-out;
