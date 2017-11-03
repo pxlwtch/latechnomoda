@@ -627,7 +627,8 @@ body {
     letter-spacing: 1px;
     line-height: 25px;
     color: black;
-    width: 60%; }
+    width: 60%;
+    margin-left: 6px; }
     @media (max-width: 750px) {
       .name .subtitle {
         font-size: 13px;
