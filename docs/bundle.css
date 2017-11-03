@@ -923,8 +923,8 @@ body {
   background-color: #222;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 3.5em;
-  width: 3.5em;
+  height: 4.5em;
+  width: 4.5em;
   border-radius: 50%;
   margin: 10px;
   -webkit-transition: background-color 0.4s ease;
@@ -934,8 +934,8 @@ body {
   transition: background-color 0.4s ease; }
   @media (max-width: 450px) {
     .icon {
-      height: 1.5em;
-      width: 1.5em; } }
+      height: 3.5em;
+      width: 3.5em; } }
 
 .goof {
   -webkit-transition: all 0.4s cubic-bezier(0, 2, 0, 2);
