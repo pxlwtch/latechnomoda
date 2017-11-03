@@ -11265,13 +11265,15 @@ $('a').on('click', function(event) {
   }
 });
 
-window.sr = scrollreveal({reset:true, viewFactor: 0.25,});
+window.sr = scrollreveal({reset:true, viewFactor: 0.25, duration: 1000});
+window.sr.reveal('.hi', {delay:500, duration: 1000});
+window.sr.reveal('.subtitle', {delay:1000, duration: 1500, easing: 'ease'});
 window.sr.reveal('.section-title');
+window.sr.reveal('.holo-bar');
+window.sr.reveal('.navigation-bar');
 window.sr.reveal('.work-piece');
 window.sr.reveal('.header');
-window.sr.reveal('.pink-separator');
 window.sr.reveal('.bio-content');
-window.sr.reveal('.other-info');
 window.sr.reveal('.bottom-links');
 window.sr.reveal('.blue-text');
 window.sr.reveal('.blue-line');
