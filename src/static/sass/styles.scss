@@ -69,7 +69,7 @@ body {
       margin-bottom: 6px;
       display: flex;
       justify-content: flex-end;
-      opacity: .8;
+      opacity: 0.8;
       @include transition(opacity 0.4s);
       .nav-button {
         text-decoration: none;
@@ -204,7 +204,7 @@ body {
       background-color: #fff;
       @include transition(opacity 0.4s ease-out);
     }
-    .work-aqua-thumb {
+    .work-cdc-thumb {
       background-image: url('../img/aqua-workpiece-background.png');
     }
     .work-bandshite-thumb {
@@ -224,7 +224,7 @@ body {
       flex-direction: column;
       justify-content: center;
       opacity: 1;
-      @include transition(opacity .4s ease-out);
+      @include transition(opacity 0.4s ease-out);
       .caption-text {
         font-family: $open-sans-font;
         color: $white;
@@ -247,75 +247,115 @@ body {
     }
   }
 }
-.work-showcase {
+.features {
   width: 100%;
+  height: 450px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  .work-piece {
-    position: relative;
-    cursor: pointer;
-    font-family: $open-sans-font;
-    flex-basis: calc(47%);
-    min-width: 300px;
-    min-height: 350px;
-    text-align: center;
-    box-shadow: 0 0;
-    @media (max-width: 885px) {
-      width: 90%;
-      flex-basis: auto;
-      margin: 10px auto;
+  flex-direction: row;
+  align-items: center;
+  background-color: #cacaca;
+  margin: 100px 0;
+  @media (max-width: 950px) {
+    flex-flow: column;
+    height: 940px;
+    margin: 0;
+  }
+  .featured-case-studies {
+    width: 33%;
+    font-family: $montserrat-font;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-left: 55px;
+    color: #000;
+    p {
+      letter-spacing: 1px;
     }
-    .work-thumbnail {
-      z-index: 1;
-      opacity: 0.2;
-      @include transition(opacity 0.4s ease-out);
-      position: absolute;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-      width: 100%;
-      height: 100%;
-      z-index: 1;
-      background-color: #fff;
+    @media (max-width: 1030px) {
+      width: 25%;
     }
-    .work-aqua-thumb {
-      background-image: url('../img/aqua-workpiece-background.png');
+    @media (max-width: 750px) {
+      margin: 0;
+      width: 80%;
     }
-    .work-bandshite-thumb {
-      background-image: url('../img/bandshite-workpiece-background.png');
+    @media (max-width: 450px) {
+      font-size: 15px;
+      margin: 20px auto;
     }
-    .work-beverly-thumb {
-      background-image: url('../img/beverly-workpiece-background.png');
+  }
+  .work-showcase {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    height: 750px;
+    @media (max-width: 1030px) {
+      align-content: flex-end;
     }
-    .work-rosie-thumb {
-      background-image: url('../img/rosie-workpiece-background.png');
+    @media (max-width: 950px) {
+      flex-flow: column;
+      align-items: center;
     }
-    .caption {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      background-color: #424242;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      @include transition(opacity 0.4s ease-out);
-      .caption-text {
-        font-family: $montserrat-font;
-        color: $white;
-        h1 {
-          font-size: 22px;
-          letter-spacing: 3px;
-        }
-        p {
-          font-size: 16px;
-          margin-top: 40px;
+    .work-piece {
+      position: relative;
+      cursor: pointer;
+      font-family: $open-sans-font;
+      width: 351px;
+      height: 252px;
+      text-align: center;
+      box-shadow: 0 0;
+      overflow: hidden;
+      margin: 10px;
+      box-shadow: 2px 2px 7px 0px #909090;
+      @media (max-width: 885px) {
+        width: 83%;
+      }
+      .work-thumbnail {
+        position: absolute;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        background-color: #8a8a8a;
+      }
+      .work-cdc-thumb {
+        background-image: url('../img/cdc-tile.png');
+      }
+      .work-bandshite-thumb {
+        background-image: url('../img/beverly-tile.png');
+      }
+      .work-beverly-thumb {
+        background-image: url('../img/beverly-tile.png');
+      }
+      .caption {
+        position: absolute;
+        top: 80%;
+        height: 100%;
+        width: 100%;
+        background-color: $white;
+        display: flex;
+        flex-direction: column;
+        @include transition(top 0.4s ease-out);
+        .caption-text {
+          font-family: $montserrat-font;
+          color: #424242;
+          h1 {
+            font-size: 22px;
+            letter-spacing: 3px;
+          }
+          p {
+            font-size: 16px;
+            margin-top: 40px;
+            padding: 0 24px;
+            text-align: left;
+          }
         }
       }
-    }
-    &:hover {
-      .work-thumbnail {
-        opacity: 1;
+      &:hover {
+        .caption {
+          top: 0;
+        }
       }
     }
   }
@@ -324,10 +364,10 @@ body {
   width: 100%;
   height: 30px;
   margin: 30px auto;
-  background-image: url("../img/holobar.png");
+  background-image: url('../img/holobar.png');
   background-position-y: center;
   background-repeat: no-repeat;
-background-size: cover;
+  background-size: cover;
   img {
     width: 100%;
     height: 100%;
@@ -409,7 +449,7 @@ background-size: cover;
   }
   .interests {
     background-color: #545454;
-    color: #FFF;
+    color: #fff;
     width: 500px;
     height: 250px;
     padding: 15px;
@@ -424,7 +464,7 @@ background-size: cover;
       font-size: 16px;
       font-family: $open-sans-font;
     }
-    @media (max-width:1200px) {
+    @media (max-width: 1200px) {
       width: 72%;
       margin-top: 30px;
     }
