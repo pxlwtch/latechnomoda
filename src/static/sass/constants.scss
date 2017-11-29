@@ -8,12 +8,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates::300i,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 a {
   text-decoration: none;
 }
-
 
 @mixin transition($transition) {
   -webkit-transition: $transition;
@@ -27,15 +26,15 @@ $open-sans-font: 'Open Sans', sans-serif;
 $montserrat-font: 'Montserrat', sans-serif;
 $montserrat-alternates-font: 'Montserrat Alternates', sans-serif;
 
-$white: #FEFCFF;
-$greyish: #6D6D6D;
-$complement-1: #D383AD;
-$complement-2: #5A72D0;
-$complement-3: #82E6DA;
-$linkedin-color: #007BB6;
-$github-color: #95BE8C;
-$codepen-color: #8ED9E9;
-$dribbble-color: #EA4C89;
+$white: #fefcff;
+$greyish: #6d6d6d;
+$complement-1: #d383ad;
+$complement-2: #5a72d0;
+$complement-3: #82e6da;
+$linkedin-color: #007bb6;
+$github-color: #95be8c;
+$codepen-color: #8ed9e9;
+$dribbble-color: #ea4c89;
 $codepen-icon: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iLTEuMiAtMS4yIDQwIDQwIj48cG9seWdvbiBmaWxsPSJub25lIiBwb2ludHM9IjkuMiwxNy4xIDkuMiwyMC40IDExLjcsMTguOCAiLz48cG9seWdvbiBmaWxsPSJub25lIiBwb2ludHM9IjEwLDIyLjMgMTcuOCwyNy41IDE3LjgsMjIuOSAxMy40LDIwICIvPjxwb2x5Z29uIGZpbGw9Im5vbmUiIHBvaW50cz0iMTguOCwxNi40IDE1LjIsMTguOCAxOC44LDIxLjEgMjIuMywxOC44ICIvPjxwb2x5Z29uIGZpbGw9Im5vbmUiIHBvaW50cz0iMTcuOCwxNC43IDE3LjgsMTAgMTAsMTUuMiAxMy40LDE3LjYgIi8+PHBvbHlnb24gZmlsbD0ibm9uZSIgcG9pbnRzPSIyNy42LDE1LjIgMTkuOCwxMCAxOS44LDE0LjcgMjQuMSwxNy42ICIvPjxwb2x5Z29uIGZpbGw9Im5vbmUiIHBvaW50cz0iMTkuOCwyMi45IDE5LjgsMjcuNSAyNy42LDIyLjMgMjQuMSwyMCAiLz48cGF0aCBmaWxsPSJub25lIiBkPSJNMTguOCwzLjFjLTguNiwwLTE1LjcsNy0xNS43LDE1LjdjMCw4LjYsNywxNS43LDE1LjcsMTUuN2M4LjYsMCwxNS43LTcsMTUuNy0xNS43QzM0LjQsMTAuMSwyNy40LDMuMSwxOC44LDMuMXogTTMwLjQsMjIuNEMzMC40LDIyLjQsMzAuNCwyMi41LDMwLjQsMjIuNGMwLDAuMSwwLDAuMSwwLDAuMWMwLDAsMCwwLDAsMGMwLDAsMCwwLDAsMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMCwwLjFjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLDAuMWMwLDAsMCwwLDAsMGMwLDAsMCwwLDAsMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAtMC4xLDBjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLDBsLTEwLjYsNy4xYy0wLjIsMC4xLTAuNCwwLjItMC42LDAuMmMtMC4yLDAtMC40LTAuMS0wLjYtMC4yTDcuNiwyMy4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMCwwYzAsMCwwLDAtMC4xLDBjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLTAuMWMwLDAsMCwwLDAsMGMwLDAsMCwwLDAtMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMC0wLjFjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLTAuMWMwLDAsMCwwLDAsMGMwLDAsMC0wLjEsMC0wLjFjMCwwLDAsMCwwLDBjMCwwLDAtMC4xLDAtMC4xdi03LjFjMCwwLDAtMC4xLDAtMC4xYzAsMCwwLDAsMCwwYzAsMCwwLTAuMSwwLTAuMWMwLDAsMCwwLDAsMGMwLDAsMCwwLDAtMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMC0wLjFjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLTAuMWMwLDAsMCwwLDAsMGMwLDAsMCwwLDAtMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMC4xLDBjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLDBsMTAuNi03LjFjMC4zLTAuMiwwLjgtMC4yLDEuMSwwbDEwLjYsNy4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMCwwYzAsMCwwLDAsMC4xLDBjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLDAuMWMwLDAsMCwwLDAsMGMwLDAsMCwwLDAsMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMCwwLjFjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLDAuMWMwLDAsMCwwLDAsMGMwLDAsMCwwLjEsMCwwLjFjMCwwLDAsMCwwLDBjMCwwLDAsMC4xLDAsMC4xdjcuMUMzMC40LDIyLjMsMzAuNCwyMi40LDMwLjQsMjIuNHoiLz48cG9seWdvbiBmaWxsPSJub25lIiBwb2ludHM9IjI4LjQsMjAuNCAyOC40LDE3LjEgMjUuOSwxOC44ICIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xOC44LDBDOC40LDAsMCw4LjQsMCwxOC44czguNCwxOC44LDE4LjgsMTguOHMxOC44LTguNCwxOC44LTE4LjhTMjkuMSwwLDE4LjgsMHogTTE4LjgsMzQuNGMtOC42LDAtMTUuNy03LTE1LjctMTUuN2MwLTguNiw3LTE1LjcsMTUuNy0xNS43YzguNiwwLDE1LjcsNywxNS43LDE1LjdDMzQuNCwyNy40LDI3LjQsMzQuNCwxOC44LDM0LjR6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTMwLjQsMTUuMUMzMC40LDE1LjEsMzAuNCwxNS4xLDMwLjQsMTUuMWMwLTAuMSwwLTAuMSwwLTAuMWMwLDAsMCwwLDAsMGMwLDAsMCwwLDAtMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMC0wLjFjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLTAuMWMwLDAsMCwwLDAsMGMwLDAsMCwwLDAtMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAtMC4xLDBjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLDBMMTkuMyw3LjNjLTAuMy0wLjItMC44LTAuMi0xLjEsMEw3LjYsMTQuNGMwLDAsMCwwLDAsMGMwLDAsMCwwLDAsMGMwLDAsMCwwLTAuMSwwYzAsMCwwLDAsMCwwYzAsMCwwLDAsMCwwLjFjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLDAuMWMwLDAsMCwwLDAsMGMwLDAsMCwwLDAsMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMCwwLjFjMCwwLDAsMCwwLDBjMCwwLDAsMC4xLDAsMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAuMSwwLDAuMXY3LjFjMCwwLDAsMC4xLDAsMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAuMSwwLDAuMWMwLDAsMCwwLDAsMGMwLDAsMCwwLDAsMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMCwwLjFjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLDAuMWMwLDAsMCwwLDAsMGMwLDAsMCwwLDAsMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMC4xLDBjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLDBsMTAuNiw3LjFjMC4yLDAuMSwwLjQsMC4yLDAuNiwwLjJjMC4yLDAsMC40LTAuMSwwLjYtMC4ybDEwLjYtNy4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMCwwYzAsMCwwLDAsMC4xLDBjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLTAuMWMwLDAsMCwwLDAsMGMwLDAsMCwwLDAtMC4xYzAsMCwwLDAsMCwwYzAsMCwwLDAsMC0wLjFjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLTAuMWMwLDAsMCwwLDAsMGMwLDAsMC0wLjEsMC0wLjFjMCwwLDAsMCwwLDBjMCwwLDAtMC4xLDAtMC4xdi03LjFDMzAuNCwxNS4yLDMwLjQsMTUuMSwzMC40LDE1LjF6IE0xOS44LDEwbDcuOCw1LjJsLTMuNSwyLjNsLTQuMy0yLjlWMTB6IE0xNy44LDEwdjQuN2wtNC4zLDIuOUwxMCwxNS4yTDE3LjgsMTB6IE05LjIsMTcuMWwyLjUsMS43bC0yLjUsMS43VjE3LjF6IE0xNy44LDI3LjVMMTAsMjIuM2wzLjUtMi4zbDQuMywyLjlWMjcuNXogTTE4LjgsMjEuMWwtMy41LTIuNGwzLjUtMi40bDMuNSwyLjRMMTguOCwyMS4xeiBNMTkuOCwyNy41di00LjdsNC4zLTIuOWwzLjUsMi4zTDE5LjgsMjcuNXogTTI4LjQsMjAuNGwtMi41LTEuN2wyLjUtMS43VjIwLjR6Ii8+PC9zdmc+);
 $github-icon: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAtMC40IDMyIDMzIj48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMzIsMTZjMCw4LjgtNy4yLDE2LTE2LDE2QzcuMiwzMiwwLDI0LjgsMCwxNkMwLDcuMiw3LjIsMCwxNiwwQzI0LjgsMCwzMiw3LjIsMzIsMTYgTTIwLDI5YzUuNS0xLjgsOS41LTYuOSw5LjUtMTNjMC03LjUtNi0xMy41LTEzLjUtMTMuNUM4LjUsMi41LDIuNSw4LjUsMi41LDE2YzAsNi4xLDQsMTEuMiw5LjUsMTN2LTIuNWMtMy45LDAuOS00LjgtMS44LTQuOC0xLjhjLTAuNi0xLjYtMS41LTItMS41LTJjLTEuMy0wLjksMC4xLTAuOCwwLjEtMC44YzEuNCwwLjEsMi4xLDEuNCwyLjEsMS40YzEuMywyLjMsMy41LDEuNCw0LjIsMS4xYzAuMi0xLDEtMS4yLDEuMi0xLjNDOS44LDIyLjYsNiwyMS4zLDYsMTUuMmMwLTEuNywwLjYtMy4xLDEuNi00LjJjLTAuMi0wLjQtMC43LTIsMC4yLTQuMmMwLDAsMS4zLTAuNCw0LjMsMS42YzEuMy0wLjMsMi42LTAuNSwzLjktMC41YzEuMywwLDIuNywwLjIsMy45LDAuNWMzLTIsNC4zLTEuNiw0LjMtMS42YzAuOSwyLjIsMC4zLDMuOCwwLjIsNC4yYzEsMS4xLDEuNiwyLjUsMS42LDQuMmMwLDYuMS0zLjgsNy40LTcuMyw3LjhjMC42LDAuNCwxLjMsMS4zLDEuMywyLjhWMjl6Ii8+PC9zdmc+);
 $linkedin-icon: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAtMC4zIDEwNSAxMDUiPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xLjcsMzQuNmgyMS43djY5LjdIMS43VjM0LjZ6IE0xMi42LDBjNi45LDAsMTIuNiw1LjYsMTIuNiwxMi42YzAsNi45LTUuNiwxMi42LTEyLjYsMTIuNkM1LjYsMjUuMSwwLDE5LjUsMCwxMi42QzAsNS42LDUuNiwwLDEyLjYsMCIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0zNywzNC42aDIwLjh2OS41aDAuM2MyLjktNS41LDEwLTExLjMsMjAuNS0xMS4zYzIxLjksMCwyNiwxNC40LDI2LDMzLjJ2MzguMkg4Mi45VjcwLjRjMC04LjEtMC4yLTE4LjUtMTEuMy0xOC41Yy0xMS4zLDAtMTMsOC44LTEzLDE3Ljl2MzQuNUgzN1YzNC42eiIvPjwvc3ZnPg==);
@@ -52,7 +51,7 @@ p {
 body {
   // background-color: grey;
 }
-.home-button{
+.home-button {
   height: 39px;
   width: 82px;
   position: fixed;
@@ -61,7 +60,7 @@ body {
   z-index: 4;
   @media (max-width: 750px) {
     top: 10px;
-    }
+  }
   img {
     height: 100%;
     width: 100%;
@@ -89,7 +88,7 @@ body {
     right: 10px;
     @media (max-width: 750px) {
       width: 45px;
-      }
+    }
   }
 }
 .btn-text {
@@ -102,10 +101,10 @@ body {
   letter-spacing: 1px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   @media (max-width: 750px) {
-      font-size: 26px;
-      letter-spacing: 1px;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    }
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
 }
 .horizontal-navigation {
   vertical-align: top;
@@ -125,12 +124,12 @@ body {
     color: white;
   }
   @media (max-width: 750px) {
-      box-shadow: 0 0;
-      width: 100%;
-      flex-direction: row;
-      justify-content: center;
-      padding-top: 50px;
-      box-shadow: 0 0 5px grey;
+    box-shadow: 0 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    box-shadow: 0 0 5px grey;
   }
   .h-nav-button {
     margin-left: 10px;
@@ -139,9 +138,9 @@ body {
     border-radius: 4px;
     border: 3px solid rgb(23, 23, 23);
     @media (max-width: 750px) {
-        width: 90px;
-        border-radius: 2px;
-        height: 40px;
-      }
+      width: 90px;
+      border-radius: 2px;
+      height: 40px;
+    }
   }
 }
