@@ -168,7 +168,7 @@ body {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 100px;
   .work-piece {
     background-color: #292929;
@@ -176,13 +176,16 @@ body {
     cursor: pointer;
     font-family: $open-sans-font;
     font-weight: 700;
-    flex-basis: calc(47%);
-    margin: 15px auto;
+    flex-basis: calc(32%);
+    margin-top: 29px;
     min-width: 300px;
     min-height: 350px;
+    max-width: 420px;
     text-align: center;
     border-radius: 3px;
     box-shadow: 0 0;
+    overflow: hidden;
+    border: 1px solid #adadad;
     h1 {
       font-size: 22px;
       font-family: $montserrat-font;
@@ -199,35 +202,50 @@ body {
       background-repeat: no-repeat;
       width: 100%;
       height: 100%;
-      z-index: 1;
-      opacity: 0.2;
-      background-color: #fff;
-      @include transition(opacity 0.4s ease-out);
+      background-color: #8a8a8a;
+    }
+    .work-portfolio-thumb {
+      background-image: url('../img/portfolio-tile.png');
+    }
+    .work-telefix-thumb {
+      background-image: url('../img/telefix-tile.png');
     }
     .work-cdc-thumb {
-      background-image: url('../img/aqua-workpiece-background.png');
+      background-image: url('../img/cdc-tile.png');
+    }
+    .work-aqua-thumb {
+      padding-top: 27px;
+      background-size: 170px;
+      background-image: url('../img/aqua-tile.png');
     }
     .work-bandshite-thumb {
-      background-image: url('../img/bandshite-workpiece-background.png');
+      background-image: url('../img/bandshite-tile.png');
     }
     .work-beverly-thumb {
-      background-image: url('../img/beverly-workpiece-background.png');
+      background-image: url('../img/beverly-tile.png');
     }
     .work-rosie-thumb {
-      background-image: url('../img/rosie-workpiece-background.png');
+      padding-top: 10px;
+      background-size: 260px;
+      background-image: url('../img/rosie-tile.png');
     }
     .caption {
       position: absolute;
+      top: 80%;
       height: 100%;
       width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      opacity: 1;
-      @include transition(opacity 0.4s ease-out);
+      background-color: $white;
+      @include transition(top 0.4s);
       .caption-text {
         font-family: $open-sans-font;
-        color: $white;
+        color: #424242;
+        position: absolute;
+        top: 5%;
+        width: 100%;
+        @include transition(top 1.4s);
         h1 {
           font-size: 18px;
         }
@@ -238,11 +256,11 @@ body {
       }
     }
     &:hover {
-      .work-thumbnail {
-        opacity: 1;
-      }
       .caption {
-        opacity: 0;
+        top: 0%;
+        .caption-text {
+          top: 25%;
+        }
       }
     }
   }
@@ -271,7 +289,14 @@ body {
       font-weight: bold;
     }
     p {
+      font-family: $open-sans-font;
       letter-spacing: 1px;
+    }
+    p a {
+      color: black;
+    }
+    p a:visited {
+      color: #30aad2;
     }
     @media (max-width: 1030px) {
       width: 25%;
@@ -302,7 +327,7 @@ body {
     .work-piece {
       position: relative;
       cursor: pointer;
-      font-family: $open-sans-font;
+      font-family: $montserrat-font;
       width: 351px;
       height: 252px;
       text-align: center;
@@ -327,8 +352,8 @@ body {
       .work-cdc-thumb {
         background-image: url('../img/cdc-tile.png');
       }
-      .work-bandshite-thumb {
-        background-image: url('../img/beverly-tile.png');
+      .work-telefix-thumb {
+        background-image: url('../img/telefix-tile.png');
       }
       .work-beverly-thumb {
         background-image: url('../img/beverly-tile.png');
@@ -342,15 +367,19 @@ body {
         display: flex;
         flex-direction: column;
         border-radius: 3px;
-        @include transition(top 0.4s ease-out);
+        font-feature-settings: "liga" 0;
+        @include transition(top .4s ease-out);
         .caption-text {
-          font-family: $montserrat-font;
           color: #424242;
+          position: absolute;
+          top: 0px;
+          @include transition(top .6s);
           h1 {
             font-size: 22px;
             letter-spacing: 3px;
           }
           p {
+            font-family: $open-sans-font;
             font-size: 16px;
             margin-top: 40px;
             padding: 0 24px;
@@ -360,7 +389,10 @@ body {
       }
       &:hover {
         .caption {
-          top: 0;
+          top: 0px;
+          .caption-text {
+            top: 25%;
+          }
         }
       }
     }
@@ -446,7 +478,7 @@ body {
         }
       }
       a:visited {
-        color: $complement-3;
+        color: #30aad2;
       }
     }
     @media (max-width: 1200px) {
@@ -454,10 +486,10 @@ body {
     }
   }
   .interests {
-    background-color: #545454;
+    background-color: #5a5a5a;
     color: #fff;
     width: 500px;
-    height: 250px;
+    height: 210px;
     padding: 15px;
     border-radius: 3px;
     h1 {
