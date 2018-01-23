@@ -938,25 +938,18 @@ body {
     @media (max-width: 1200px) {
       .bio-content .about {
         width: 90%; } }
-  .bio-content .interests {
-    background-color: #5a5a5a;
-    color: #fff;
-    width: 500px;
-    height: 240px;
-    padding: 15px;
-    border-radius: 3px; }
-    .bio-content .interests h1 {
-      font-family: "Montserrat", sans-serif;
-      font-size: 22px;
-      letter-spacing: 3px; }
-    .bio-content .interests p {
-      line-height: 35px;
-      font-size: 16px;
-      font-family: "Open Sans", sans-serif; }
-    @media (max-width: 1200px) {
-      .bio-content .interests {
-        width: 72%;
-        margin-top: 30px; } }
+  .bio-content .interests h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    letter-spacing: 3px; }
+  .bio-content .interests p {
+    line-height: 35px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif; }
+  @media (max-width: 1200px) {
+    .bio-content .interests {
+      width: 72%;
+      margin-top: 30px; } }
 
 .other-info {
   display: flex;
